@@ -1,0 +1,507 @@
+Cédula,Nombre Completo,Medio de Transporte,Zona donde vive,Relacion,Hora a la que llega a la universidad [Lunes],Hora a la que llega a la universidad [Martes],Hora a la que llega a la universidad [Miércoles],Hora a la que llega a la universidad [Jueves],Hora a la que llega a la universidad [Viernes],Sede,Tipo de Ruta,Ruta,Tiempo en llegar a la Universida
+16966091,Eric Martinez,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+17894960,Brittany Sanchez,Transporte Universitario,Baruta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Baruta,Menos de 1 hora
+17626551,Jose Fernandez,Transporte Universitario,Baruta,Personal Académico,9 a. m.,8 a. m.,9 a. m.,9 a. m.,9 a. m.,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+15223134,Tomas Castillo,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+6179309,Brenda Medina,Transporte Universitario,Baruta,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+6265835,Gregorio Lopez,Transporte Universitario,Baruta,Personal Académico,,,,,,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+11588449,Guillermo Perez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+22316888,Roberto Diaz,Transporte Público,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6475024,Marco Lopez,Transporte Universitario,Coche,Personal Académico,9 a. m.,9 a. m.,9 a. m.,9 a. m.,9 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+20431378,Nicole Gutierrez,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+6245800,Laura Medina,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+8799377,Guillermo Martinez,Carro propio,Bellas Artes,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+10338009,Mateo Rojas,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Catia la Mar,Menos de 1 hora
+12787109,Michelle Diaz,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+14762880,Samantha Diaz,Transporte Universitario,Gato Negro,Personal Académico,8 a. m.,9 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+11100411,Jeffrey Rojas,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+14903774,Heather Torres,Transporte Público,Bellas Artes,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11570357,Jonathan Martinez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+11258824,Maria Moreno,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+18623726,David Romero,Transporte Universitario,Charallave,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+9878575,Pamela Martinez,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+1696274,Carlos Castillo,Transporte Universitario,Coche,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+6118830,Jeffrey Martinez,Transporte Universitario,Bellas Artes,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+16299030,Lauren Torres,Transporte Público,Coche,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+16410858,Emily Gomez,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 3 y 4 horas
+11869202,Juan Martinez,Transporte Universitario,Coche,Personal Académico,8 a. m.,Antes de las 8 a. m.,8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+17212989,Samantha Gutierrez,Transporte Universitario,La Paz,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,9 a. m.,No uso el transporte USB,9 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+13298759,Guillermo Lopez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Menos de 1 hora
+13634910,Kevin Martinez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+6878293,Marco Romero,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+17055470,antonio Perez,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Menos de 1 hora
+7254345,Timoteo Mendoza,Transporte Universitario,Chacaito,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+6649210,Michelle Diaz,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+22843364,Rebecca Castillo,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+9457777,Laura Mendoza,Cola,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+22655966,Jose Jimenez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+16157427,Brittany Vaca,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+24934331,Zacarias Rojas,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+11457271,Jessica Gomez,Transporte Universitario,El Placer,Personal Administrativo,,,,,,Sartenejas,Urbana,El Placer,Menos de 1 hora
+13151878,Kimberly Sanchez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+12469469,Laura Castillo,Transporte Universitario,Bellas Artes,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+11131956,Nicole Fernandez,Transporte Público,La Paz,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6536424,Tomas Gomez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+5588524,Pamela Martinez,Carro propio,Bellas Artes,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+18398187,Jose Fernandez,Transporte Universitario,Gato Negro,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Gato Negro,Entre 1 y 2 horas
+14360087,Emily Martin,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+14119946,Tiffany Gomez,Cola,El Placer,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+17690989,Kayla Diaz,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+13858527,Rebecca Romero,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+13291972,Kimberly Medina,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+12816622,Tiffany Rojas,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+23638569,Nicolas Rojas,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 3 y 4 horas
+13404068,Shanaon Gutierrez,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+8645473,Cynthia Rojas,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+20664707,Courtney Romero,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Hoyo de la Puerta,Menos de 1 hora
+13334848,Amanda Gutierrez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+6179309,Brenda Medina,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+10492972,Laura Castillo,Cola,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+20371271,Rebecca Romero,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+16398402,Juan Diaz,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Menos de 1 hora
+7995733,Tammy Medina,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+12288641,Christina Jimenez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+18315468,Nicole Castillo,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+9992799,Teresa Vaca,Transporte Universitario,Naiguatá,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+13774084,Juan Gutierrez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+15485712,Brittany Romero,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Menos de 1 hora
+2023020,Ricardo Sanchez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+11105952,Christina Vaca,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+6261653,Timoteo Rojas,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15207489,David Fernandez,Transporte Universitario,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+20897313,Brittany Mendoza,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+4379487,Charlene Smith,Transporte Público,Los Teques/San Antonio,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15484835,Sandra Romero,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 3 y 4 horas
+11106264,Estefania Fernandez,Carro propio,Turgua/Sabaneta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+14737062,Estefania Sanchez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+12108683,Nicole Alonzo,Transporte Universitario,La Paz,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+11142759,Kimberly Rojas,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+6184902,Pamela Sanchez,Carro propio,Coche,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+15378026,Lauren Fernandez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+5258432,Alma Romero,Transporte Universitario,Bellas Artes,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+10202624,Lisa Castillo,Transporte Universitario,Gato Negro,Personal Administrativo,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+15361359,Estefania Ruiz,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+11822215,Christina Lopez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+6574420,Patricia Lopez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+7918038,Michelle Ruiz,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Menos de 1 hora
+5976897,Esteban Lopez,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+10752103,Jessica Medina,Transporte Universitario,Gato Negro,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+6520784,Pablo Ramirez,Carro propio,Coche,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+16203054,Kayla Moreno,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+24534492,Rachel Gomez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 3 y 4 horas
+1473530,Yusmari Perez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 3 y 4 horas
+9243054,Ricardo Ramirez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+13137046,Esteban Romero,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+13523161,Antonio Fernandez,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12596483,Rebecca Rojas,Transporte Universitario,Charallave,Personal Académico,,,,,,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+15232612,Amber Rojas,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+6595170,Elizabeth Martinez,Transporte Universitario,Bellas Artes,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Ruta litoral inactiva,Entre 2 y 3 horas
+6312041,Jamie Rojas,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+12997114,Ricardo Sanchez,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,8 a. m.,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+12947414,Tomas Torres,Transporte Universitario,Coche,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+10709963,Elizabeth Lopez,Transporte Universitario,Coche,Personal Académico,11 a. m.,10 a. m.,9 a. m.,10 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+18315183,Jaime Gutierrez,Transporte Público,Charallave,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+4454385,Garry Rojas,Carro propio,Otra,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+17921765,Samantha Mendoza,Transporte Público,La Paz,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12997302,Michelle Rojas,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+11294020,Christina Gomez,Transporte Universitario,Bellas Artes,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+9953280,Christina Ramirez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+10704829,Linda Lopez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+12958826,Aaron Mendoza,Transporte Público,Bellas Artes,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11879596,Sarah Sanchez,Transporte Universitario,Litoral,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13798669,Estefania Martin,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+10592367,Yiralisa Perez,Transporte Universitario,Naiguatá,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+10740080,Linda Gomez,Transporte Público,Los Teques/San Antonio,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12602833,Juan Gutierrez,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+12383864,Sarah Rojas,Transporte Universitario,Gato Negro,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+11246085,Michelle Diaz,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+11703861,Elizabeth Castillo,Carro propio,El Placer,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+12333165,Jeffrey Rojas,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+11680143,Amanda Sanchez,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+5138974,Kent Medina,Transporte Universitario,Turgua/Sabaneta,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+13517599,Brian Fernandez,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Hoyo de la Puerta,Menos de 1 hora
+12420647,Elizabeth Sanchez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+6114230,Teresa Lopez,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+12541443,Laura Gomez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+13288013,April Gomez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+14197430,Kimberly Diaz,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Menos de 1 hora
+10961672,Amanda Romero,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+10144143,Roberto Castillo,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+3839415,Lillian Castillo,Carro propio,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+16258638,Jacobo Romero,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+10702183,Christina Fernandez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+5526829,Blanca Romero,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+16104628,Elizabeth Sanchez,Transporte Público,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+17381430,Nicole Williams,Transporte Universitario,Charallave,Personal Académico,8 a. m.,8 a. m.,8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Charallave,Entre 3 y 4 horas
+13139030,Jeffrey Torres,Transporte Universitario,Naiguatá,Personal Académico,No uso el transporte USB,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,Litoral,,Naiguatá,Menos de 1 hora
+12136488,Amanda Martin,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+10535139,Michelle Ramirez,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,Urbana,Hoyo de la Puerta,Entre 1 y 2 horas
+6152969,Theresa Sanchez,Transporte Público,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+11535475,Sarah Lopez,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+8391158,Juanay Medina,Transporte Universitario,Coche,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+5584566,Marcos Lopez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+13489468,Amanda Torres,Transporte Universitario,Maracay/Turmero,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+14381191,Andres Moreno,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+6128983,yaramy Perez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+26838295,Ryan Diaz,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+6636527,Nicole Jimenez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+11326264,Jessica Ramirez,Transporte Público,Maracay/Turmero,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+14198922,Jaime Rojas,Transporte Universitario,Turgua/Sabaneta,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+21914145,Alexis Martinez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+15562653,Esteban Castillo,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 3 y 4 horas
+17618602,Samantha Romero,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+12521422,Sarah Ruiz,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+14215223,Lauren Alvarez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+5991175,Linda Romero,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+18267169,Christina Alvarez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+10419539,Amanda Rojas,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 2 y 3 horas
+9913850,Jaime Diaz,Carro propio,Charallave,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+14245258,Amanda Ramirez,Transporte Universitario,Catia la Mar,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+15411154,Roberto Sanchez,Transporte Público,Coche,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+9918710,Scott Martin,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 2 y 3 horas
+12185871,Jessica Medina,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+10328831,Maythe Perez,Transporte Público,La Paz,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+16844514,Amber Diaz,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+18630897,Brittany Jimenez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+13136295,Jessica Torres,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+11556193,Rebecca Jimenez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 4 y 5 horas
+9018967,Deborah Gomez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+10732790,Roberto Martin,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+6454067,Ricardo Mendoza,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+6997996,Jeffrey Torres,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+10455943,Nicole Martin,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+25555254,Estefania Martinez,Transporte Público,Maracay/Turmero,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+13852895,Jose Martinez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+12171209,Rebecca Rojas,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+17615136,Brittany Martinez,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+6336433,Elizabeth Ramirez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+11164439,Estefania Martinez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+14339834,Guillermo Martinez,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+11305028,Kimberly Rojas,Transporte Público,La Paz,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6293270,Linda Diaz,Transporte Universitario,Charallave,Personal Administrativo,,,,,,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+9977311,Barbara Alonzo,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+15414465,Elizabeth Lopez,Transporte Público,Bellas Artes,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15763443,Elizabeth Torres,Transporte Universitario,Baruta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+11797654,Kelly Lopez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+9997966,Linda Lopez,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Menos de 1 hora
+10486619,Brenda Rojas,Transporte Público,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15266454,Ryan Romero,Transporte Universitario,Litoral,Personal Académico,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Litoral,Entre 1 y 2 horas
+10263464,Kimberly Rojas,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+13695028,Marco Moreno,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+11751198,Jaime Smith,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+13694821,Ricardo Alonzo,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 3 y 4 horas
+9284313,Sharon Martinez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+11167865,Rafae Perez,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+11346258,Nicole Romero,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+3816688,Phyllis Castillo,Transporte Universitario,Coche,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+15598315,Nicole Fernandez,Transporte Público,Turgua/Sabaneta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6457889,Esteban Castillo,Transporte Universitario,Gato Negro,Personal Académico,8 a. m.,8 a. m.,9 a. m.,9 a. m.,9 a. m.,Litoral,,Gato Negro,Entre 1 y 2 horas
+12654776,Jessica Diaz,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+4083684,Dawn Lopez,Transporte Universitario,Coche,Personal Administrativo,No uso el transporte USB,8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+3882849,Lydia Perez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+5970091,Pablo Mendoza,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Menos de 1 hora
+11590897,Timoteo Fernandez,Transporte Universitario,Charallave,Personal Administrativo,,,,,,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+22855390,Andres Diaz,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+15928381,Michelle Sanchez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+10950140,Kimberly Sanchez,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+6282396,Sandra Jimenez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+6815436,Deborah Mendoza,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+16533045,Samantha Sanchez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Menos de 1 hora
+12449326,Laura Sanchez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 2 y 3 horas
+15297978,Kimberly Mendoza,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 3 y 4 horas
+6244833,Linda Fernandez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+21115262,Jonathan Lopez,Cola,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+3636335,Jack Moreno,Carro propio,Baruta,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+15293403,Chad Ramirez,Carro propio,La Paz,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12920143,gustavo Perez,Transporte Universitario,Baruta,Personal Académico,9 a. m.,Antes de las 8 a. m.,9 a. m.,Antes de las 8 a. m.,9 a. m.,Sartenejas,Urbana,Baruta,Menos de 1 hora
+16395128,Emily Navarro,Transporte Universitario,Charallave,Personal Administrativo,,,,,,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+5861550,Liza Sanchez,Transporte Público,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13845547,Kimberly Vaca,Transporte Universitario,Bellas Artes,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Bellas Artes,Menos de 1 hora
+5965391,Cynthia Castillo,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+26347689,Amanda Castillo,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,Antes de las 8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Menos de 1 hora
+3244786,Roberto Lopez,Transporte Universitario,Maracay/Turmero,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+6557898,Patricia Lopez,Transporte Universitario,Baruta,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+13495297,Amanda Mendoza,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+13489956,Julia Lopez,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+4348163,Eileen Lopez,Transporte Universitario,La Paz,Personal Académico,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Ruta litoral inactiva,Entre 4 y 5 horas
+19568042,Lauren Vaca,Transporte Público,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+5667981,Esteban Brown,Transporte Universitario,Gato Negro,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Gato Negro,Entre 1 y 2 horas
+13934425,Michelle Mendoza,Transporte Universitario,Gato Negro,Personal Académico,8 a. m.,8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+12362897,Carrie Torres,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+13806813,Benjamin Rojas,Transporte Universitario,Catia la Mar,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+10424115,Linda Alonzo,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+22237967,Lauren Torres,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+14456121,Aaron Rojas,Carro propio,Hoyo de la Puerta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+13617420,Roberto Rojas,Transporte Universitario,Coche,Personal Académico,Antes de las 8 a. m.,9 a. m.,Antes de las 8 a. m.,9 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+21435984,Justo Martinez,Transporte Universitario,Gato Negro,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+14944745,Sarah Fernandez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+12932474,Josue Ramirez,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+151427750,GABRIELA Perez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 3 y 4 horas
+9918710,Scott Martin,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 2 y 3 horas
+15721142,Justo Diaz,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+5527460,Julia Perez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+15836665,Daniel Sanchez,Transporte Universitario,Caraballeda/Caribe,Personal Académico,8 a. m.,Antes de las 8 a. m.,8 a. m.,Antes de las 8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+10536405,Daniel Sanchez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 2 y 3 horas
+4363780,Glenda Gomez,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+4664580,Veronica Gutierrez,Cola,Charallave,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13417764,Laura Vaca,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+5074259,Melanie Gomez,Carro propio,Coche,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+4567108,Patti Rojas,Carro propio,Los Teques/San Antonio,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+10132970,Scott Ruiz,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+11442212,Rachel Gutierrez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+17665563,Megan Castillo,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+6117422,Jose Castillo,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+18980973,Amber Diaz,Transporte Universitario,Chacaito,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+8855822,Eduardo Gutierrez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11764512,Eric Diaz,Transporte Universitario,Bellas Artes,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+14251684,Juan Rojas,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+18292053,Nicolas Moreno,Transporte Universitario,Charallave,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+10436591,Michelle Sanchez,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+6169992,Marco Medina,Carro propio,Charallave,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+5511810,Larry Rojas,Transporte Universitario,Coche,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Menos de 1 hora
+11685188,Mateo Diaz,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+19286745,Brittany Lopez,Caminando ,Naiguatá,Personal Administrativo,,,,,,Litoral,,,Menos de 1 hora
+4267058,Tim Diaz,Transporte Universitario,Chacaito,Personal Académico,9 a. m.,No uso el transporte USB,9 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Chacaito,Menos de 1 hora
+13832994,Nancy Diaz,Transporte Público,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+9912274,Todd Diaz,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Litoral,,Catia la Mar,Entre 1 y 2 horas
+9912274,Todd Diaz,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Litoral,,Catia la Mar,Entre 1 y 2 horas
+14933532,Michelle Vaca,Transporte Universitario,Bellas Artes,Personal Académico,9 a. m.,Antes de las 8 a. m.,9 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+11557155,Kimberly Williams,Transporte Universitario,Gato Negro,Personal Académico,9 a. m.,9 a. m.,No uso el transporte USB,No uso el transporte USB,8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+6310451,Donna Rojas,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+14556753,Timoteo Castillo,Transporte Universitario,Baruta,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,9 a. m.,9 a. m.,Sartenejas,Urbana,Baruta,Menos de 1 hora
+3851081,Nancy Ramirez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,11 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,11 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+6316695,Donna Jimenez,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+10127396,Kimberly Martinez,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,Después de las 12 m.,Antes de las 8 a. m.,Después de las 12 m.,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 3 y 4 horas
+17338799,Rachel Gutierrez,Carro propio,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+10991969,Jessica Torres,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 4 y 5 horas
+10600207,Shanaon Ramirez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+10600207,Shanaon Ramirez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+6547277,Patricia Martinez,Transporte Universitario,Bellas Artes,Personal Académico,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Ruta litoral inactiva,Entre 2 y 3 horas
+4552161,Tina Ramirez,Cola,Baruta,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11164119,Mateo Lopez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+18832148,Antonio Moreno,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+19660476,Jose Moreno,Transporte Público,Maracay/Turmero,Personal Académico,,,,,,Litoral,,,Entre 4 y 5 horas
+10914956,Ryan Diaz,Transporte Universitario,Caraballeda/Caribe,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Caraballeda/Caribe,Entre 2 y 3 horas
+12902543,Guillermo Ramirez,Transporte Universitario,Guarenas/Guatire,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Guarenas/Guatire,Entre 4 y 5 horas
+10229211,Marco Sanchez,Transporte Universitario,Baruta,Personal Académico,,,,,,Sartenejas,,,Entre 2 y 3 horas
+14605184,Nicole Gomez,Transporte Universitario,Gato Negro,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+16700210,Kyle Gomez,Carro propio,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+16496913,David Romero,Transporte Universitario,Caraballeda/Caribe,Personal Académico,Antes de las 8 a. m.,9 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+14692297,David Lopez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+12214647,Jamie Martin,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Menos de 1 hora
+7663287,Donna Jimenez,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+11727888,Elizabeth Ramirez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 2 y 3 horas
+17950473,Elizabeth Martinez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+14744981,Crystal Ramirez,Carro propio,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+19883830,Hanaah Vaca,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+6983333,Marco Lopez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+6720623,Kimberly Sanchez,Cola,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+11343785,Michelle Diaz,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+6028676,Timoteo Johnson,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+28494871,Juan Martinez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+11511867,Roberto Rojas,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+11698149,Nicole Medina,Carro propio,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+18486129,Ryan Diaz,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+9831054,Nancy Sanchez,Carro propio,El Placer,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+12853446,Brenda Medina,Transporte Universitario,Guarenas/Guatire,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 3 y 4 horas
+29663788,Roberto Sanchez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,10 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+16559500,Megan Diaz,Transporte Público,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+10469468,Scott Diaz,Transporte Universitario,Coche,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+8756123,Douglas Sanchez,Transporte Público,Maracay/Turmero,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+12910322,Daniel Fernandez,Transporte Universitario,La Paz,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Ruta litoral inactiva,Entre 2 y 3 horas
+11602475,Brian Romero,Transporte Universitario,Gato Negro,Personal Académico,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,No uso el transporte USB,Litoral,,Gato Negro,Entre 2 y 3 horas
+14267830,Justo Ramirez,Transporte Universitario,Maracay/Turmero,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+17417996,Daniel Navarro,Transporte Universitario,La Paz,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+5427413,Irma Diaz,Transporte Universitario,Baruta,Personal Administrativo,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+5148806,Sara Moreno,Transporte Universitario,Baruta,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Baruta,Entre 2 y 3 horas
+12650432,Kevin Gomez,Carro propio,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+9438487,Brian Diaz,Transporte Universitario,Charallave,Personal Administrativo,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+24326160,Guillermo Ramirez,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+13908519,Rebecca Diaz,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+13931404,Roberto Torres,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+2732191,Vanessa Castillo,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+6177925,Pamela Diaz,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 3 y 4 horas
+12538818,Kevin Rojas,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 3 y 4 horas
+13298987,Nicole Alvarez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+10919481,Ryan Romero,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+10964425,Linda Diaz,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+12907220,Rebecca Diaz,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+11622563,Rebecca Gutierrez,Transporte Universitario,Catia la Mar,Personal Académico,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Catia la Mar,Entre 1 y 2 horas
+11796435,Kimberly Torres,Transporte Público,La Paz,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+17561667,Tiffany Ramirez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Menos de 1 hora
+14198485,Tyler Castillo,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+15781811,Kimberly Martinez,Carro propio,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+17259932,Amber Martinez,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+14382606,David Sanchez,Carro propio,El Placer,Personal Administrativo,,,,,,Sartenejas,,,Menos de 1 hora
+23874559,Tyler Diaz,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+11863090,Lisa Alvarez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+8714914,Jennifer Lopez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+13414689,Michelle Rojas,Transporte Público,Maracay/Turmero,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+14838447,Juan Ramirez,Transporte Universitario,Bellas Artes,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 2 y 3 horas
+7483417,Esteban Rojas,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+13572626,Jessica Ramirez,Transporte Público,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+10410633,Jessica Gutierrez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+14808815,Lisa Castillo,Transporte Público,Otra,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+16415567,Melissa Diaz,Transporte Público,Turgua/Sabaneta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+14966083,Tiffany Sanchez,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+16322118,Rebecca Ramirez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Menos de 1 hora
+7995599,Deborah Torres,Carro propio,Bellas Artes,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+11478727,Mateo Vaca,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 3 y 4 horas
+12729525,Lisa Vaca,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+14843737,Juan Torres,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+10587387,Juan Davis,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 3 y 4 horas
+12696354,Mateo Rojas,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+12517625,Roberto Gomez,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+7294707,Brenda Gomez,Transporte Universitario,Maracay/Turmero,Personal Académico,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+11164439,Estefania Martinez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+22577593,Amanda Rojas,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+15563174,Heather Diaz,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+10539714,Guillermo Torres,Transporte Universitario,Naiguatá,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Naiguatá,Menos de 1 hora
+14414310,Julia Ramirez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+14375486,Nicole Romero,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+6336697,Esteban Diaz,Transporte Universitario,Charallave,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+10474293,Sarah Vaca,Carro propio,Chacaito,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6214017,Denise Martinez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,9 a. m.,9 a. m.,9 a. m.,9 a. m.,9 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+12209301,Jessica Rojas,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+11386299,Jeremy Rojas,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+14182665,Estefania Rojas,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+8574073,Brycen Sanchez,Transporte Universitario,Maracay/Turmero,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+1713979,Ricardo Sanchez,Transporte Universitario,Baruta,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Baruta,Menos de 1 hora
+6035487,Deborah Gutierrez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+9469445,Gary Rojas,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+19950903,Tiffany Martinez,Transporte Público,Los Teques/San Antonio,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+10548111,Maria Romero,Transporte Universitario,Coche,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+12432402,Jamie Martinez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 1 y 2 horas
+6876798,Erick Romero,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+11363890,Brian Sanchez,Transporte Universitario,Catia la Mar,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+10209001,Lori Moreno,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+81265765,Teresa Lopez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+24428065,Kyle Lopez,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+15593169,Jonathan Romero,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 3 y 4 horas
+6288185,Cynthia Lopez,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+12891015,Guillermo Martin,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12600333,Jamie Ramirez,Carro propio,Catia La Mar,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15382608,Jonathan Diaz,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,9 a. m.,Antes de las 8 a. m.,9 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+12219341,Michelle Ruiz,Transporte Universitario,Maracay/Turmero,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Menos de 1 hora
+12214989,Daniel Martinez,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Litoral,,Catia la Mar,Entre 2 y 3 horas
+6931812,Scott Castillo,Transporte Universitario,Litoral,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+13955396,Kimberly Ramirez,Carro propio,Guarenas/Guatire,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+15570562,Jaime Ruiz,Transporte Universitario,Charallave,Personal Académico,8 a. m.,9 a. m.,8 a. m.,9 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 3 y 4 horas
+8128306,Sharon Rojas,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+12107870,Amanda Castillo,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+16607424,Daniel Rojas,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+12401295,Amanda Sanchez,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+14139587,Heather Rojas,Transporte Público,Guarenas/Guatire,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+12406999,Kevin Castillo,Transporte Universitario,Los Teques/San Antonio,Personal Académico,No uso el transporte USB,8 a. m.,8 a. m.,No uso el transporte USB,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+19985399,Jason Martin,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+5493894,Cynthia Gutierrez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+6792155,Cynthia Alonzo,Transporte Universitario,Charallave,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+10294642,Ronald Castillo,Transporte Universitario,Litoral,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Litoral,Entre 3 y 4 horas
+6232992,Pamela Gutierrez,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+6870331,Pablo Martinez,Transporte Universitario,Coche,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+5601397,MARIA Perez,Transporte Universitario,La Paz,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+18143323,Danielle Mendoza,Transporte Universitario,Bellas Artes,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+13158494,Kevin Diaz,Transporte Universitario,Baruta,Personal Académico,8 a. m.,9 a. m.,8 a. m.,9 a. m.,9 a. m.,Sartenejas,Urbana,Baruta,Entre 2 y 3 horas
+4229768,Latasha Smith,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+6971193,Julia Martinez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+6917415,Tammy Diaz,Transporte Universitario,Turgua/Sabaneta,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+6868690,Linda Mendoza,Transporte Universitario,Baruta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Baruta,Entre 1 y 2 horas
+11722814,Jessica Gutierrez,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Menos de 1 hora
+9013388,Patricia Gomez,Carro propio,La Paz,Personal Académico,,,,,,Litoral,,,Menos de 1 hora
+10623822,Jamie Rojas,Transporte Público,Los Teques/San Antonio,Personal Académico,,,,,,Sartenejas,,,Entre 2 y 3 horas
+6534595,Teresa Alonzo,Transporte Universitario,Coche,Personal Administrativo,No uso el transporte USB,9 a. m.,No uso el transporte USB,9 a. m.,No uso el transporte USB,Sartenejas,Urbana,Coche,Menos de 1 hora
+11917213,Carrie Gomez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 2 y 3 horas
+14488564,Nicole Alvarez,Transporte Universitario,Coche,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+18299384,Eric Sanchez,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+5539187,Jose Castillo,Transporte Universitario,Chacaito,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 2 y 3 horas
+16276187,Nicole Romero,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+3024530,EDGAR Perez,Carro propio,Baruta,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+4575656,Jan Fernandez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+4929537,Zayd Ramirez,Transporte Universitario,La Paz,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+10564456,Katrina Gutierrez,Transporte Universitario,Chacaito,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+13694967,Christina Fernandez,Transporte Universitario,Bellas Artes,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+10481110,Laura Moreno,Transporte Universitario,Maracay/Turmero,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+6977142,Patricia Castillo,Transporte Universitario,Turgua/Sabaneta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 2 y 3 horas
+14513789,Elizabeth Fernandez,Transporte Universitario,Naiguatá,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Naiguatá,Menos de 1 hora
+10211959,Lisa Gomez,Transporte Universitario,Gato Negro,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Gato Negro,Entre 2 y 3 horas
+14912202,Antonio Rojas,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Coche,Menos de 1 hora
+10904537,Nicole Diaz,Transporte Universitario,La Paz,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 3 y 4 horas
+6854309,Deborah Medina,Carro propio,Baruta,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+4789428,Mekhi Williams,Transporte Universitario,Chacaito,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+15104210,Danielle Vaca,Transporte Universitario,Maracay/Turmero,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 4 y 5 horas
+11975657,Andrea Medina,Transporte Universitario,Chacaito,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+6446972,Elsa Perez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+6028367,Linda Jimenez,Transporte Universitario,Coche,Personal Administrativo,No uso el transporte USB,10 a. m.,No uso el transporte USB,10 a. m.,No uso el transporte USB,Sartenejas,Urbana,Coche,Entre 1 y 2 horas
+4872992,Tia Lopez,Transporte Universitario,El Placer,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Litoral,,Ruta litoral inactiva,5 horas o más
+17634466,Christina Martin,Transporte Universitario,Guarenas/Guatire,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Interurbana,Guarenas/Guatire,Entre 2 y 3 horas
+685914,Eglee Perez,Transporte Público,Coche,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+10982149,Sara Gutierrez,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+17273249,Kevin Sanchez,Transporte Universitario,La Paz,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,La Paz,Entre 1 y 2 horas
+14217682,Tiffany Sanchez,Transporte Público,Chacaito,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13811877,Maria Rojas,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 2 y 3 horas
+14270422,Guillermo Alonzo,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,No uso el transporte USB,Litoral,,Catia la Mar,Entre 3 y 4 horas
+9917417,Marco Fernandez,Transporte Universitario,Naiguatá,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+13244963,Maria Mendoza,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+3823311,Beth Romero,Transporte Universitario,Baruta,Personal Académico,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Urbana,Baruta,Entre 2 y 3 horas
+18103075,Samantha Mendoza,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+19202002,Brittany Martinez,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+11179329,Jamie Mendoza,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11935048,Amanda Sanchez,Transporte Universitario,Coche,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Ruta urbana inactiva,Entre 1 y 2 horas
+17533508,Kimberly Jimenez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+6417881,Brenda Castillo,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+18420015,Daniel Medina,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+19804089,Juan Gutierrez,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+15128323,Megan Torres,Transporte Público,Charallave,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+10127918,Elizabeth Torres,Carro propio,Baruta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+20866012,Lauren Gomez,Transporte Público,Turgua/Sabaneta,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+16639252,Elizabeth Fernandez,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Litoral,,Catia la Mar,Entre 1 y 2 horas
+10990936,Carlos Sanchez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+6290446,Sandra Castillo,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+12493664,Estefania Fernandez,Cola,Chacaito,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13235211,Eric Romero,Transporte Universitario,Charallave,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Charallave,Entre 2 y 3 horas
+6111056,Roberto Castillo,Carro propio,El Placer,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+16467896,Danielle Diaz,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Catia la Mar,Menos de 1 hora
+12878804,Christina Rojas,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+14142993,Jessica Mendoza,Carro propio,Maracay/Turmero,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11925965,Amanda Johnson,Transporte Universitario,Bellas Artes,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+12878804,Christina Rojas,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Ruta intraurbana inactiva,Entre 1 y 2 horas
+16928267,Jonathan Ramirez,Transporte Universitario,Maracay/Turmero,Personal Académico,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+9973366,Lori Martinez,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+6397851,Marco Sanchez,Transporte Universitario,Caraballeda/Caribe,Personal Académico,No uso el transporte USB,8 a. m.,No uso el transporte USB,8 a. m.,No uso el transporte USB,Litoral,,Caraballeda/Caribe,Menos de 1 hora
+16947043,Justo Ruiz,Transporte Universitario,Chacaito,Personal Académico,9 a. m.,9 a. m.,9 a. m.,12 m.,9 a. m.,Sartenejas,Urbana,Chacaito,Entre 1 y 2 horas
+6380952,Estefania Ramirez,Transporte Universitario,Catia la Mar,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Litoral,,Catia la Mar,Entre 2 y 3 horas
+1281879,williams Perez,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
+11356359,Daniel Moore,Transporte Universitario,Catia la Mar,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Catia la Mar,Entre 1 y 2 horas
+11502678,Kimberly Gutierrez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Sartenejas,Interurbana,Maracay/Turmero,Menos de 1 hora
+15507885,Christina Diaz,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,No uso el transporte USB,Antes de las 8 a. m.,Litoral,,Caraballeda/Caribe,Entre 1 y 2 horas
+11441524,Michelle Lopez,Transporte Universitario,Charallave,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+16399102,Brittany Gomez,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Entre 2 y 3 horas
+17829870,Danielle Gomez,Transporte Universitario,Hoyo de la Puerta,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,Hoyo de la Puerta,Menos de 1 hora
+6248840,Esteban Fernandez,Transporte Universitario,Guarenas/Guatire,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Guarenas/Guatire,Entre 3 y 4 horas
+11146085,Juan Ruiz,Transporte Universitario,Maracay/Turmero,Personal Administrativo,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 1 y 2 horas
+7946005,Kimberly Gomez,Transporte Universitario,Catia la Mar,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Ruta litoral inactiva,Menos de 1 hora
+12969855,Jamie Diaz,Transporte Universitario,Caraballeda/Caribe,Personal Administrativo,No uso el transporte USB,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Caraballeda/Caribe,Entre 2 y 3 horas
+10713493,Esteban Sanchez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Entre 1 y 2 horas
+16252960,Roberto Lopez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+9069137,Jeffrey Diaz,Transporte Público,Turgua/Sabaneta,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+11269913,Estefania Martinez,Transporte Universitario,Coche,Personal Académico,9 a. m.,Antes de las 8 a. m.,9 a. m.,Antes de las 8 a. m.,9 a. m.,Sartenejas,Urbana,Coche,Entre 2 y 3 horas
+12724129,Lisa Jimenez,Transporte Público,Guarenas/Guatire,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+18315183,Jaime Gutierrez,Transporte Público,Turgua/Sabaneta,Personal Académico,,,,,,Sartenejas,,,Entre 1 y 2 horas
+6478666,Debra Fernandez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+6382682,Eduardo Smith,Transporte Universitario,La Paz,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+26497115,Alexis Lopez,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 2 y 3 horas
+6046736,Patricia Fernandez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+15910237,David Sanchez,Transporte Universitario,Maracay/Turmero,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Maracay/Turmero,Entre 2 y 3 horas
+13805008,Lisa Lopez,Transporte Universitario,Naiguatá,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Litoral,,Naiguatá,Menos de 1 hora
+4142162,Audry Navarro,Transporte Universitario,Litoral,Personal Académico,No uso el transporte USB,8 a. m.,No uso el transporte USB,No uso el transporte USB,No uso el transporte USB,Sartenejas,Interurbana,Litoral,Entre 1 y 2 horas
+9483056,Lori Lopez,Transporte Universitario,El Placer,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Litoral,,Ruta litoral inactiva,Entre 1 y 2 horas
+12909121,Jessica Martinez,Transporte Universitario,Litoral,Personal Administrativo,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Interurbana,Litoral,Entre 2 y 3 horas
+2578263,Daniel Rojas,Transporte Universitario,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+9572071,Barbara Martin,Transporte Público,Gato Negro,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+13933699,Shanaon Lopez,Transporte Público,Coche,Personal Administrativo,,,,,,Sartenejas,,,Entre 1 y 2 horas
+17930489,Tyler Lopez,Transporte Universitario,Bellas Artes,Personal Académico,8 a. m.,8 a. m.,8 a. m.,8 a. m.,8 a. m.,Sartenejas,Urbana,Bellas Artes,Entre 1 y 2 horas
+6911653,Patricia Lopez,Carro propio,Chacaito,Personal Académico,,,,,,Sartenejas,,,Menos de 1 hora
+18200595,Lauren Torres,Transporte Universitario,La Paz,Personal Académico,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Urbana,La Paz,Entre 2 y 3 horas
+15115790,Elizabeth Martinez,Transporte Universitario,Los Teques/San Antonio,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,9 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 2 y 3 horas
+7919580,Guillermo Sanchez,Transporte Universitario,Charallave,Personal Académico,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,No uso el transporte USB,Antes de las 8 a. m.,Sartenejas,Interurbana,Charallave,Entre 1 y 2 horas
+11684591,Jessica Rojas,Transporte Universitario,Los Teques/San Antonio,Personal Administrativo,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Antes de las 8 a. m.,Sartenejas,Interurbana,Los Teques/San Antonio,Entre 1 y 2 horas
