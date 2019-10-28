@@ -12,23 +12,52 @@ CREATE DATABASE bd_team5;
 
 --	Cargamos los datos en dos tablas temporales
 
-CREATE TABLE IF NOT EXISTS nomina(
-	id_cargo SMALLINT PRIMARY KEY,
-	nombre_cargo VARCHAR(64) NOT NULL
+CREATE TABLE IF NOT EXISTS temp_nomina(
+	id_nomina SERIAL PRIMARY KEY,
+	id_tno SMALLINT,
+	tno CHAR(5),
+	estatus VARCHAR(8),
+	id_sede SMALLINT,
+	nombre_sede VARCHAR(20),
+	tipo_personal CHAR(1),
+	documento_identidad_personal INT,
+	apellido_personal VARCHAR(64),
+	nombre_personal VARCHAR(64),
+	genero_personal VARCHAR(10),
+	fecha_ingreso_personal DATE,
+	id_cargo INT,
+	nombre_cargo VARCHAR(64),
+	id_autoridad SMALLINT,
+	autoridad VARCHAR(64),
+	id_departamento SMALLINT,
+	nombre_departamento VARCHAR(70)
 );
 
-COPY temp_nomina(first_name,last_name,dob,email)
-FROM 'C:\tmp\persons.csv' DELIMITER ',' CSV HEADER;
+\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, tipo_personal, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
 
 CREATE TABLE IF NOT EXISTS temp_censo(
-	id_cargo SMALLINT PRIMARY KEY,
-	nombre_cargo VARCHAR(64) NOT NULL
+	id_censo SERIAL PRIMARY KEY,
+	documento_identidad_personal INT,
+	nombre_completo_personal VARCHAR(127),
+	medio_transporte VARCHAR(64),
+	zona_residencia VARCHAR(64),
+	relacion VARCHAR(32),
+	hora_lunes VARCHAR(32),
+	hora_martes VARCHAR(32),
+	hora_miercoles VARCHAR(32),
+	hora_jueves VARCHAR(32),
+	hora_viernes VARCHAR(32),
+	nombre_sede VARCHAR(20),
+	tipo_ruta VARCHAR(32),
+	nombre_ruta VARCHAR(32),
+	tiempo_llegada VARCHAR(20)
 );
 
-COPY temp_censo(first_name,last_name,dob,email)
-FROM 'C:\tmp\persons.csv' DELIMITER ',' CSV HEADER;
+\COPY temp_censo(documento_identidad_personal, nombre_completo_personal, medio_transporte, zona_residencia, relacion, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, nombre_sede, tipo_ruta, nombre_ruta, tiempo_llegada) FROM 'Censo Empleados.csv' DELIMITER ',' CSV HEADER
 
 --	Creamos cada tabla
+
+
 --	Extraemos la data de la temporal a donde corresponda
 
 CREATE TABLE IF NOT EXISTS cargo(
@@ -43,7 +72,7 @@ CREATE TABLE IF NOT EXISTS sede(
 
 CREATE TABLE IF NOT EXISTS departamento(
 	id_departamento SMALLINT PRIMARY KEY,
-	nombre_departamento VARCHAR(64) NOT NULL,
+	nombre_departamento VARCHAR(70) NOT NULL,
 	id_sede SMALLINT,
 	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
 );
@@ -66,6 +95,7 @@ CREATE TABLE IF NOT EXISTS personal(
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
 	nombre_personal VARCHAR(64) NOT NULL,
+	apellido_personal VARCHAR(64) NOT NULL,
 	genero_personal CHAR(1) NOT NULL,
 	fecha_ingreso_personal DATE NOT NULL,
 	id_sede SMALLINT,
