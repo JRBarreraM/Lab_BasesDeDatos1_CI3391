@@ -10,7 +10,24 @@ CREATE DATABASE bd_team5;
 --	Nos conectamos a la BD
 \c bd_team5;
 
---	Cargamos los datos en un tabla temporal
+--	Cargamos los datos en dos tablas temporales
+
+CREATE TABLE IF NOT EXISTS nomina(
+	id_cargo SMALLINT PRIMARY KEY,
+	nombre_cargo VARCHAR(64) NOT NULL
+);
+
+COPY temp_nomina(first_name,last_name,dob,email)
+FROM 'C:\tmp\persons.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE IF NOT EXISTS temp_censo(
+	id_cargo SMALLINT PRIMARY KEY,
+	nombre_cargo VARCHAR(64) NOT NULL
+);
+
+COPY temp_censo(first_name,last_name,dob,email)
+FROM 'C:\tmp\persons.csv' DELIMITER ',' CSV HEADER;
+
 --	Creamos cada tabla
 --	Extraemos la data de la temporal a donde corresponda
 
@@ -48,7 +65,6 @@ CREATE TABLE IF NOT EXISTS ruta(
 CREATE TABLE IF NOT EXISTS personal(
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
-	id_personal PRIMARY KEY(tipo_personal, documento_identidad_personal),
 	nombre_personal VARCHAR(64) NOT NULL,
 	genero_personal CHAR(1) NOT NULL,
 	fecha_ingreso_personal DATE NOT NULL,
@@ -59,12 +75,14 @@ CREATE TABLE IF NOT EXISTS personal(
 	id_departamento SMALLINT,
 	FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento),
 	id_cargo SMALLINT,
-	FOREIGN KEY (id_cargo) REFERENCES cargo(id_cargo)
+	FOREIGN KEY (id_cargo) REFERENCES cargo(id_cargo),
+	CONSTRAINT id_personal PRIMARY KEY(tipo_personal, documento_identidad_personal)
 );
 
 CREATE TABLE IF NOT EXISTS censo(
 	id_censo SERIAL PRIMARY KEY,
 	nombre_censo VARCHAR(64) NOT NULL,
-	id_personal INT,
-	FOREIGN KEY (id_personal) REFERENCES personal(id_personal)
+	tipo_personal CHAR(1) NOT NULL,
+	documento_identidad_personal INT NOT NULL,
+	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal)
 );
