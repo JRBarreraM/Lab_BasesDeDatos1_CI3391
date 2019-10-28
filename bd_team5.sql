@@ -28,12 +28,12 @@ CREATE TABLE IF NOT EXISTS temp_nomina(
 	id_cargo INT,
 	nombre_cargo VARCHAR(64),
 	id_autoridad SMALLINT,
-	autoridad VARCHAR(64),
+	nombre_autoridad VARCHAR(64),
 	id_departamento SMALLINT,
 	nombre_departamento VARCHAR(70)
 );
 
-\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, tipo_personal, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
+\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, tipo_personal, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, nombre_autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
 
 CREATE TABLE IF NOT EXISTS temp_censo(
 	id_censo SERIAL PRIMARY KEY,
@@ -56,9 +56,6 @@ CREATE TABLE IF NOT EXISTS temp_censo(
 \COPY temp_censo(documento_identidad_personal, nombre_completo_personal, medio_transporte, zona_residencia, relacion, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, nombre_sede, tipo_ruta, nombre_ruta, tiempo_llegada) FROM 'Censo Empleados.csv' DELIMITER ',' CSV HEADER
 
 --	Creamos cada tabla
-
-
---	Extraemos la data de la temporal a donde corresponda
 
 CREATE TABLE IF NOT EXISTS cargo(
 	id_cargo SMALLINT PRIMARY KEY,
@@ -85,7 +82,7 @@ CREATE TABLE IF NOT EXISTS autoridad(
 );
 
 CREATE TABLE IF NOT EXISTS ruta(
-	id_ruta SMALLINT PRIMARY KEY,
+	id_ruta SERIAL PRIMARY KEY,
 	nombre_ruta VARCHAR(64) NOT NULL,
 	id_sede SMALLINT,
 	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
@@ -96,7 +93,7 @@ CREATE TABLE IF NOT EXISTS personal(
 	documento_identidad_personal INT NOT NULL,
 	nombre_personal VARCHAR(64) NOT NULL,
 	apellido_personal VARCHAR(64) NOT NULL,
-	genero_personal CHAR(1) NOT NULL,
+	genero_personal VARCHAR(10) NOT NULL,
 	fecha_ingreso_personal DATE NOT NULL,
 	id_sede SMALLINT,
 	FOREIGN KEY (id_sede) REFERENCES sede(id_sede),
@@ -116,3 +113,33 @@ CREATE TABLE IF NOT EXISTS censo(
 	documento_identidad_personal INT NOT NULL,
 	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal)
 );
+
+--	Extraemos la data de la temporal a donde corresponda
+INSERT INTO cargo
+SELECT DISTINCT id_cargo, nombre_cargo
+FROM temp_nomina
+ORDER BY id_cargo;
+
+INSERT INTO sede
+SELECT DISTINCT id_sede, nombre_sede
+FROM temp_nomina
+ORDER BY id_sede;
+
+INSERT INTO departamento
+SELECT DISTINCT id_departamento, nombre_departamento, id_sede
+FROM temp_nomina
+ORDER BY id_departamento;
+
+INSERT INTO autoridad
+SELECT DISTINCT id_autoridad, nombre_autoridad, id_sede
+FROM temp_nomina
+ORDER BY id_autoridad;
+
+INSERT INTO ruta (nombre_ruta, id_sede)
+SELECT DISTINCT censo.nombre_ruta, nomina.id_sede
+FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.nombre_sede = nomina.nombre_sede;
+
+INSERT INTO personal
+SELECT DISTINCT tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
+FROM temp_nomina
+ORDER BY documento_identidad_personal;
