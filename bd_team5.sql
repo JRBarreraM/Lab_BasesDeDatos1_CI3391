@@ -140,6 +140,6 @@ SELECT DISTINCT censo.nombre_ruta, nomina.id_sede
 FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.nombre_sede = nomina.nombre_sede;
 
 INSERT INTO personal
-SELECT DISTINCT tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
+SELECT DISTINCT ON (tipo_personal), tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
 FROM temp_nomina
 ORDER BY documento_identidad_personal;
