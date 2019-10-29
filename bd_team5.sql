@@ -137,9 +137,10 @@ ORDER BY id_autoridad;
 
 INSERT INTO ruta (nombre_ruta, id_sede)
 SELECT DISTINCT censo.nombre_ruta, nomina.id_sede
-FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.nombre_sede = nomina.nombre_sede;
+FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.documento_identidad_personal = nomina.documento_identidad_personal
+WHERE censo.nombre_ruta IS NOT NULL;
 
 INSERT INTO personal
-SELECT DISTINCT ON (tipo_personal), tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
+SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_personal) tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
 FROM temp_nomina
 ORDER BY documento_identidad_personal;
