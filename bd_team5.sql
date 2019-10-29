@@ -1,5 +1,7 @@
+--------------------------------------------------------------------------------
 --	Jose Barrera, 15-10123
 --	Maria Magallanes, 13-10787
+--------------------------------------------------------------------------------
 
 --	Eliminamos la BD si existe
 DROP DATABASE IF EXISTS bd_team5;
@@ -108,7 +110,6 @@ CREATE TABLE IF NOT EXISTS personal(
 
 CREATE TABLE IF NOT EXISTS censo(
 	id_censo SERIAL PRIMARY KEY,
-	nombre_censo VARCHAR(64) NOT NULL,
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
 	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal)
@@ -144,3 +145,11 @@ INSERT INTO personal
 SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_personal) tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
 FROM temp_nomina
 ORDER BY documento_identidad_personal;
+
+INSERT INTO censo (tipo_personal, documento_identidad_personal)
+SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_personal) tipo_personal, documento_identidad_personal
+FROM temp_nomina
+ORDER BY documento_identidad_personal;
+
+--	Eliminamos las tablas temporales
+DROP TABLE temp_nomina, temp_censo
