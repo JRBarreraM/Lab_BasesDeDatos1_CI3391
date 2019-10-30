@@ -90,6 +90,11 @@ CREATE TABLE IF NOT EXISTS ruta(
 	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
 );
 
+CREATE TABLE IF NOT EXISTS hora(
+	id_hora SERIAL PRIMARY KEY,
+	nombre_hora VARCHAR(32)
+);
+
 CREATE TABLE IF NOT EXISTS personal(
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
@@ -112,7 +117,15 @@ CREATE TABLE IF NOT EXISTS censo(
 	id_censo SERIAL PRIMARY KEY,
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
-	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal)
+	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal),
+	medio_transporte VARCHAR(64),
+	nombre_ruta VARCHAR(32),
+	hora_lunes VARCHAR(32),
+	hora_martes VARCHAR(32),
+	hora_miercoles VARCHAR(32),
+	hora_jueves VARCHAR(32),
+	hora_viernes VARCHAR(32),
+	tiempo_llegada VARCHAR(20)
 );
 
 --	Extraemos la data de la temporal a donde corresponda
@@ -146,10 +159,10 @@ SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_p
 FROM temp_nomina
 ORDER BY documento_identidad_personal;
 
-INSERT INTO censo (tipo_personal, documento_identidad_personal)
-SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_personal) tipo_personal, documento_identidad_personal
-FROM temp_nomina
-ORDER BY documento_identidad_personal;
+INSERT INTO censo (tipo_personal, documento_identidad_personal, medio_transporte, nombre_ruta, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, tiempo_llegada)
+SELECT DISTINCT ON (nomina.tipo_personal, nomina.documento_identidad_personal) tipo_personal, censo.documento_identidad_personal, medio_transporte, nombre_ruta, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, tiempo_llegada
+FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.documento_identidad_personal = nomina.documento_identidad_personal
+ORDER BY nomina.tipo_personal, nomina.documento_identidad_personal;
 
 --	Eliminamos las tablas temporales
 DROP TABLE temp_nomina, temp_censo
