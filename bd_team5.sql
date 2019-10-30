@@ -165,6 +165,8 @@ ORDER BY nomina.tipo_personal, nomina.documento_identidad_personal;
 --	Eliminamos las tablas temporales
 DROP TABLE temp_nomina, temp_censo;
 
+
+--	PRINT 'Query! 1'
 SELECT
    nombre_ruta,
    COUNT (nombre_ruta)
@@ -174,3 +176,5 @@ GROUP BY
    nombre_ruta
 ORDER BY
 	nombre_ruta;
+
+--	PRINT 'Query! 2'
