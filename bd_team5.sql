@@ -13,7 +13,6 @@ CREATE DATABASE bd_team5;
 \c bd_team5;
 
 --	Cargamos los datos en dos tablas temporales
-
 CREATE TABLE IF NOT EXISTS temp_nomina(
 	id_nomina SERIAL PRIMARY KEY,
 	id_tno SMALLINT,
@@ -52,13 +51,12 @@ CREATE TABLE IF NOT EXISTS temp_censo(
 	nombre_sede VARCHAR(20),
 	tipo_ruta VARCHAR(32),
 	nombre_ruta VARCHAR(32),
-	tiempo_llegada VARCHAR(20)
+	tiempo_llegada VARCHAR(20) NOT NULL
 );
 
 \COPY temp_censo(documento_identidad_personal, nombre_completo_personal, medio_transporte, zona_residencia, relacion, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, nombre_sede, tipo_ruta, nombre_ruta, tiempo_llegada) FROM 'Censo Empleados.csv' DELIMITER ',' CSV HEADER
 
 --	Creamos cada tabla
-
 CREATE TABLE IF NOT EXISTS cargo(
 	id_cargo SMALLINT PRIMARY KEY,
 	nombre_cargo VARCHAR(64) NOT NULL
@@ -125,7 +123,7 @@ CREATE TABLE IF NOT EXISTS censo(
 	hora_miercoles VARCHAR(32),
 	hora_jueves VARCHAR(32),
 	hora_viernes VARCHAR(32),
-	tiempo_llegada VARCHAR(20)
+	tiempo_llegada VARCHAR(20) NOT NULL
 );
 
 --	Extraemos la data de la temporal a donde corresponda
@@ -165,4 +163,14 @@ FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.documento_identidad
 ORDER BY nomina.tipo_personal, nomina.documento_identidad_personal;
 
 --	Eliminamos las tablas temporales
-DROP TABLE temp_nomina, temp_censo
+DROP TABLE temp_nomina, temp_censo;
+
+SELECT
+   nombre_ruta,
+   COUNT (nombre_ruta)
+FROM
+   censo
+GROUP BY
+   nombre_ruta
+ORDER BY
+	nombre_ruta;
