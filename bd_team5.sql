@@ -57,6 +57,46 @@ CREATE TABLE IF NOT EXISTS temp_censo(
 \COPY temp_censo(documento_identidad_personal, nombre_completo_personal, medio_transporte, zona_residencia, relacion, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, nombre_sede, tipo_ruta, nombre_ruta, tiempo_llegada) FROM 'Censo Empleados.csv' DELIMITER ',' CSV HEADER
 
 --	Creamos cada tabla
+CREATE TABLE IF NOT EXISTS estado_personal(
+	id_estado_personal SERIAL PRIMARY KEY,
+	nombre_estado_personal VARCHAR(64)
+);
+
+CREATE TABLE IF NOT EXISTS tipo_personal(
+	id_tipo_personal SMALLINT PRIMARY KEY,
+	nombre_tipo_personal VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS genero_personal(
+	id_genero SERIAL PRIMARY KEY,
+	nombre_genero VARCHAR(16)
+);
+
+CREATE TABLE IF NOT EXISTS medio_transporte(
+	id_medio_transporte SERIAL PRIMARY KEY,
+	nombre_medio_transporte VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS zona_vive(
+	id_zona_vive SERIAL PRIMARY KEY,
+	nombre_zona_vive VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS horas_estandar(
+	id_horas_estandar SERIAL PRIMARY KEY,
+	nombre_horas_estandar VARCHAR(32) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tiempo_llegada(
+	id_tiempo_llegada SERIAL PRIMARY KEY,
+	nombre_tiempo_llegada VARCHAR(32) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tipo_ruta(
+	id_tipo_ruta SERIAL PRIMARY KEY,
+	nombre_tipo_ruta VARCHAR(64)
+);
+
 CREATE TABLE IF NOT EXISTS cargo(
 	id_cargo SMALLINT PRIMARY KEY,
 	nombre_cargo VARCHAR(64) NOT NULL
@@ -70,44 +110,44 @@ CREATE TABLE IF NOT EXISTS sede(
 CREATE TABLE IF NOT EXISTS departamento(
 	id_departamento SMALLINT PRIMARY KEY,
 	nombre_departamento VARCHAR(70) NOT NULL,
-	id_sede SMALLINT,
-	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
+	sede SMALLINT,
+	FOREIGN KEY (sede) REFERENCES sede(id_sede)
 );
 
 CREATE TABLE IF NOT EXISTS autoridad(
 	id_autoridad SMALLINT PRIMARY KEY,
 	nombre_autoridad VARCHAR(64) NOT NULL,
-	id_sede SMALLINT,
-	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
+	sede SMALLINT,
+	FOREIGN KEY (sede) REFERENCES sede(id_sede)
 );
 
 CREATE TABLE IF NOT EXISTS ruta(
 	id_ruta SERIAL PRIMARY KEY,
 	nombre_ruta VARCHAR(64) NOT NULL,
-	id_sede SMALLINT,
-	FOREIGN KEY (id_sede) REFERENCES sede(id_sede)
-);
-
-CREATE TABLE IF NOT EXISTS hora(
-	id_hora SERIAL PRIMARY KEY,
-	nombre_hora VARCHAR(32)
+	sede SMALLINT,
+	FOREIGN KEY (sede) REFERENCES sede(id_sede)
 );
 
 CREATE TABLE IF NOT EXISTS personal(
-	tipo_personal CHAR(1) NOT NULL,
+	tipo_documento_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
 	nombre_personal VARCHAR(64) NOT NULL,
 	apellido_personal VARCHAR(64) NOT NULL,
-	genero_personal VARCHAR(10) NOT NULL,
 	fecha_ingreso_personal DATE NOT NULL,
-	id_sede SMALLINT,
+	genero_personal VARCHAR(16) NOT NULL,
+	FOREIGN KEY (genero_personal) REFERENCES genero_personal(id_genero),
+	sede SMALLINT,
 	FOREIGN KEY (id_sede) REFERENCES sede(id_sede),
-	id_autoridad SMALLINT,
-	FOREIGN KEY (id_autoridad) REFERENCES autoridad(id_autoridad),
-	id_departamento SMALLINT,
-	FOREIGN KEY (id_departamento) REFERENCES departamento(id_departamento),
-	id_cargo SMALLINT,
+	autoridad SMALLINT,
+	FOREIGN KEY (autoridad) REFERENCES autoridad(id_autoridad),
+	departamento SMALLINT,
+	FOREIGN KEY (departamento) REFERENCES departamento(id_departamento),
+	cargo SMALLINT,
 	FOREIGN KEY (id_cargo) REFERENCES cargo(id_cargo),
+	tipo_personal SMALLINT,
+	FOREIGN KEY (tipo_personal) REFERENCES tipo_personal(id_tipo_personal),
+	estado_personal SMALLINT,
+	FOREIGN KEY (estado_personal) REFERENCES estado_personal(id_estado_personal),
 	CONSTRAINT id_personal PRIMARY KEY(tipo_personal, documento_identidad_personal)
 );
 
@@ -116,14 +156,26 @@ CREATE TABLE IF NOT EXISTS censo(
 	tipo_personal CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
 	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal),
-	medio_transporte VARCHAR(64),
-	nombre_ruta VARCHAR(32),
-	hora_lunes VARCHAR(32),
-	hora_martes VARCHAR(32),
-	hora_miercoles VARCHAR(32),
-	hora_jueves VARCHAR(32),
-	hora_viernes VARCHAR(32),
-	tiempo_llegada VARCHAR(20) NOT NULL
+	medio_transporte SMALLINT,
+	FOREIGN KEY (medio_transporte) REFERENCES medio_transporte(id_medio_transporte),
+	zona_vive SMALLINT,
+	FOREIGN KEY (zona_vive) REFERENCES medio_vive(id_zona_vive),
+	tipo_ruta SMALLINT,
+	FOREIGN KEY (tipo_ruta) REFERENCES tipo_ruta(id_tipo_ruta),
+	ruta SMALLINT,
+	FOREIGN KEY (ruta) REFERENCES ruta(id_ruta),
+	tiempo_llegada SMALLINT,
+	FOREIGN KEY (tiempo_llegada) REFERENCES tiempo_llegada(id_tiempo_llegada),
+	hora_lunes SMALLINT,
+	FOREIGN KEY (hora_lunes) REFERENCES horas_estandar(id_horas_estandar),
+	hora_martes SMALLINT,
+	FOREIGN KEY (hora_martes) REFERENCES horas_estandar(id_horas_estandar),
+	hora_miercoles SMALLINT,
+	FOREIGN KEY (hora_miercoles) REFERENCES horas_estandar(id_horas_estandar),
+	hora_jueves SMALLINT,
+	FOREIGN KEY (hora_jueves) REFERENCES horas_estandar(id_horas_estandar),
+	hora_viernes SMALLINT
+	FOREIGN KEY (hora_viernes) REFERENCES horas_estandar(id_horas_estandar)
 );
 
 --	Extraemos la data de la temporal a donde corresponda
