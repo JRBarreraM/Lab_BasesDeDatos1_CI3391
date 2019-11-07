@@ -157,7 +157,7 @@ CREATE TABLE IF NOT EXISTS censo(
 	medio_de_transporte SMALLINT,
 	FOREIGN KEY (medio_de_transporte) REFERENCES medio_transporte(id_medio_transporte),
 	zona_vive SMALLINT,
-	FOREIGN KEY (zona_vive) REFERENCES medio_vive(id_zona_vive),
+	FOREIGN KEY (zona_vive) REFERENCES zona_vive(id_zona_vive),
 	tipo_ruta SMALLINT,
 	FOREIGN KEY (tipo_ruta) REFERENCES tipo_ruta(id_tipo_ruta),
 	ruta SMALLINT,
