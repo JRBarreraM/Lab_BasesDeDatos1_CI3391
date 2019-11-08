@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS genero_personal(
 
 CREATE TABLE IF NOT EXISTS medio_transporte(
 	id_medio_transporte SERIAL PRIMARY KEY,
-	nombre_medio_transporte VARCHAR(64) NOT NULL
+	nombre_medio_transporte VARCHAR(64) NOT NULL UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS zona_residencia(
@@ -213,7 +213,8 @@ FROM temp_nomina;
 \echo 'llenando medio_transporte'
 INSERT INTO medio_transporte (nombre_medio_transporte)
 SELECT DISTINCT medio_transporte
-FROM temp_censo;
+FROM temp_censo
+ON CONFLICT DO NOTHING;
 
 --SELECT * FROM medio_transporte;
 
@@ -257,7 +258,6 @@ SELECT DISTINCT tiempo_llegada
 FROM temp_censo;
 
 --SELECT * FROM tiempo_llegada;
-
 
 \echo 'llenando tipo_ruta'
 INSERT INTO tipo_ruta (nombre_tipo_ruta)
@@ -335,7 +335,6 @@ INNER JOIN horas_estandar as martes ON temp_censo.hora_martes = martes.nombre_ho
 INNER JOIN horas_estandar as miercoles ON temp_censo.hora_miercoles = miercoles.nombre_horas_estandar)
 INNER JOIN horas_estandar as jueves ON temp_censo.hora_jueves = jueves.nombre_horas_estandar)
 INNER JOIN horas_estandar as viernes ON temp_censo.hora_viernes = viernes.nombre_horas_estandar);
-
 
 --	Eliminamos las tablas temporales
 DROP TABLE temp_nomina, temp_censo;
