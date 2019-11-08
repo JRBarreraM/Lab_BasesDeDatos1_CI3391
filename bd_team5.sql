@@ -20,11 +20,11 @@ CREATE TABLE IF NOT EXISTS temp_nomina(
 	estatus VARCHAR(8),
 	id_sede SMALLINT,
 	nombre_sede VARCHAR(20),
-	tipo_personal CHAR(1),
+	nacionalidad CHAR(1),
 	documento_identidad_personal INT,
 	apellido_personal VARCHAR(64),
 	nombre_personal VARCHAR(64),
-	genero_personal VARCHAR(10),
+	genero_personal VARCHAR(16),
 	fecha_ingreso_personal DATE,
 	id_cargo INT,
 	nombre_cargo VARCHAR(64),
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS temp_nomina(
 	nombre_departamento VARCHAR(70)
 );
 
-\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, tipo_personal, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, nombre_autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
+\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, nacionalidad, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, nombre_autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
 
 CREATE TABLE IF NOT EXISTS temp_censo(
 	id_censo SERIAL PRIMARY KEY,
@@ -68,8 +68,8 @@ CREATE TABLE IF NOT EXISTS tipo_personal(
 );
 
 CREATE TABLE IF NOT EXISTS genero_personal(
-	id_genero SERIAL PRIMARY KEY,
-	nombre_genero VARCHAR(16)
+	id_genero_personal SERIAL PRIMARY KEY,
+	nombre_genero_personal VARCHAR(16)
 );
 
 CREATE TABLE IF NOT EXISTS medio_transporte(
@@ -77,14 +77,14 @@ CREATE TABLE IF NOT EXISTS medio_transporte(
 	nombre_medio_transporte VARCHAR(64) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS zona_vive(
-	id_zona_vive SERIAL PRIMARY KEY,
-	nombre_zona_vive VARCHAR(64) NOT NULL
+CREATE TABLE IF NOT EXISTS zona_residencia(
+	id_zona_residencia SERIAL PRIMARY KEY,
+	nombre_zona_residencia VARCHAR(64) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS horas_estandar(
 	id_horas_estandar SERIAL PRIMARY KEY,
-	nombre_horas_estandar VARCHAR(32) NOT NULL
+	nombre_horas_estandar VARCHAR(32) UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS tiempo_llegada(
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS tiempo_llegada(
 
 CREATE TABLE IF NOT EXISTS tipo_ruta(
 	id_tipo_ruta SERIAL PRIMARY KEY,
-	nombre_tipo_ruta VARCHAR(64)
+	nombre_tipo_ruta VARCHAR(32) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS cargo(
@@ -129,37 +129,37 @@ CREATE TABLE IF NOT EXISTS ruta(
 );
 
 CREATE TABLE IF NOT EXISTS personal(
-	tipo_documento_personal CHAR(1) NOT NULL,
+	nacionalidad CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
 	nombre_personal VARCHAR(64) NOT NULL,
 	apellido_personal VARCHAR(64) NOT NULL,
 	fecha_ingreso_personal DATE NOT NULL,
-	genero_personal VARCHAR(16) NOT NULL,
-	FOREIGN KEY (genero_personal) REFERENCES genero_personal(id_genero),
+	genero_personal SMALLINT,
+	FOREIGN KEY (genero_personal) REFERENCES genero_personal(id_genero_personal),
 	sede SMALLINT,
-	FOREIGN KEY (id_sede) REFERENCES sede(id_sede),
+	FOREIGN KEY (sede) REFERENCES sede(id_sede),
 	autoridad SMALLINT,
 	FOREIGN KEY (autoridad) REFERENCES autoridad(id_autoridad),
 	departamento SMALLINT,
 	FOREIGN KEY (departamento) REFERENCES departamento(id_departamento),
 	cargo SMALLINT,
-	FOREIGN KEY (id_cargo) REFERENCES cargo(id_cargo),
+	FOREIGN KEY (cargo) REFERENCES cargo(id_cargo),
 	tipo_personal SMALLINT,
 	FOREIGN KEY (tipo_personal) REFERENCES tipo_personal(id_tipo_personal),
 	estado_personal SMALLINT,
 	FOREIGN KEY (estado_personal) REFERENCES estado_personal(id_estado_personal),
-	CONSTRAINT id_personal PRIMARY KEY(tipo_personal, documento_identidad_personal)
+	PRIMARY KEY(nacionalidad, documento_identidad_personal)
 );
 
 CREATE TABLE IF NOT EXISTS censo(
 	id_censo SERIAL PRIMARY KEY,
-	tipo_personal CHAR(1) NOT NULL,
+	nacionalidad CHAR(1) NOT NULL,
 	documento_identidad_personal INT NOT NULL,
-	FOREIGN KEY (tipo_personal,documento_identidad_personal) REFERENCES personal(tipo_personal, documento_identidad_personal),
+	FOREIGN KEY (nacionalidad,documento_identidad_personal) REFERENCES personal(nacionalidad, documento_identidad_personal),
 	medio_transporte SMALLINT,
 	FOREIGN KEY (medio_transporte) REFERENCES medio_transporte(id_medio_transporte),
-	zona_vive SMALLINT,
-	FOREIGN KEY (zona_vive) REFERENCES medio_vive(id_zona_vive),
+	zona_residencia SMALLINT,
+	FOREIGN KEY (zona_residencia) REFERENCES zona_residencia(id_zona_residencia),
 	tipo_ruta SMALLINT,
 	FOREIGN KEY (tipo_ruta) REFERENCES tipo_ruta(id_tipo_ruta),
 	ruta SMALLINT,
@@ -174,59 +174,168 @@ CREATE TABLE IF NOT EXISTS censo(
 	FOREIGN KEY (hora_miercoles) REFERENCES horas_estandar(id_horas_estandar),
 	hora_jueves SMALLINT,
 	FOREIGN KEY (hora_jueves) REFERENCES horas_estandar(id_horas_estandar),
-	hora_viernes SMALLINT
+	hora_viernes SMALLINT,
 	FOREIGN KEY (hora_viernes) REFERENCES horas_estandar(id_horas_estandar)
 );
 
+--	Cambiamos todos los valores null por NR (no responde)
+UPDATE temp_censo
+	SET hora_lunes = COALESCE(hora_lunes, 'NR'),
+		hora_martes = COALESCE(hora_martes, 'NR'),
+		hora_miercoles = COALESCE(hora_miercoles, 'NR'),
+		hora_jueves = COALESCE(hora_jueves, 'NR'),
+		hora_viernes = COALESCE(hora_viernes, 'NR'),
+		tipo_ruta = COALESCE(tipo_ruta, 'NR'),
+		nombre_ruta = COALESCE(nombre_ruta, 'NR');
+
 --	Extraemos la data de la temporal a donde corresponda
+\echo 'llenando estado_personal'
+INSERT INTO estado_personal (nombre_estado_personal)
+SELECT DISTINCT estatus
+FROM temp_nomina;
+
+--SELECT * FROM estado_personal;
+
+\echo 'llenando tipo_personal'
+INSERT INTO tipo_personal (id_tipo_personal, nombre_tipo_personal)
+SELECT DISTINCT id_tno, tno
+FROM temp_nomina;
+
+--SELECT * FROM tipo_personal;
+
+\echo 'llenando genero_personal'
+INSERT INTO genero_personal (nombre_genero_personal)
+SELECT DISTINCT genero_personal
+FROM temp_nomina;
+
+--SELECT * FROM genero_personal;
+
+\echo 'llenando medio_transporte'
+INSERT INTO medio_transporte (nombre_medio_transporte)
+SELECT DISTINCT medio_transporte
+FROM temp_censo;
+
+--SELECT * FROM medio_transporte;
+
+\echo 'llenando zona_residencia'
+INSERT INTO zona_residencia (nombre_zona_residencia)
+SELECT DISTINCT zona_residencia
+FROM temp_censo;
+
+--SELECT * FROM zona_residencia;
+
+\echo 'llenando horas_estandar'
+INSERT INTO horas_estandar (nombre_horas_estandar)
+SELECT DISTINCT hora_lunes
+FROM temp_censo;
+
+INSERT INTO horas_estandar (nombre_horas_estandar)
+SELECT DISTINCT hora_martes
+FROM temp_censo
+ON CONFLICT DO NOTHING;
+
+INSERT INTO horas_estandar (nombre_horas_estandar)
+SELECT DISTINCT hora_miercoles
+FROM temp_censo
+ON CONFLICT DO NOTHING;
+
+INSERT INTO horas_estandar (nombre_horas_estandar)
+SELECT DISTINCT hora_jueves
+FROM temp_censo
+ON CONFLICT DO NOTHING;
+
+INSERT INTO horas_estandar (nombre_horas_estandar)
+SELECT DISTINCT hora_viernes
+FROM temp_censo
+ON CONFLICT DO NOTHING;
+
+--SELECT * FROM horas_estandar;
+
+\echo 'llenando tiempo_llegada'
+INSERT INTO tiempo_llegada (nombre_tiempo_llegada)
+SELECT DISTINCT tiempo_llegada
+FROM temp_censo;
+
+--SELECT * FROM tiempo_llegada;
+
+
+\echo 'llenando tipo_ruta'
+INSERT INTO tipo_ruta (nombre_tipo_ruta)
+SELECT DISTINCT tipo_ruta
+FROM temp_censo;
+
+--SELECT * FROM tipo_ruta;
+
+\echo 'llenando cargo'
 INSERT INTO cargo
 SELECT DISTINCT id_cargo, nombre_cargo
 FROM temp_nomina
 ORDER BY id_cargo;
 
+--SELECT * FROM cargo;
+
+\echo 'llenando sede'
 INSERT INTO sede
 SELECT DISTINCT id_sede, nombre_sede
 FROM temp_nomina
 ORDER BY id_sede;
 
+--SELECT * FROM sede;
+
+\echo 'llenando departamento'
 INSERT INTO departamento
 SELECT DISTINCT id_departamento, nombre_departamento, id_sede
 FROM temp_nomina
 ORDER BY id_departamento;
 
+--SELECT * FROM departamento;
+
+\echo 'llenando autoridad'
 INSERT INTO autoridad
 SELECT DISTINCT id_autoridad, nombre_autoridad, id_sede
 FROM temp_nomina
 ORDER BY id_autoridad;
 
-INSERT INTO ruta (nombre_ruta, id_sede)
+--ELECT * FROM autoridad;
+
+\echo 'llenando ruta'
+INSERT INTO ruta (nombre_ruta, sede)
 SELECT DISTINCT censo.nombre_ruta, nomina.id_sede
 FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.documento_identidad_personal = nomina.documento_identidad_personal
 WHERE censo.nombre_ruta IS NOT NULL;
 
-INSERT INTO personal
-SELECT DISTINCT ON (temp_nomina.tipo_personal, temp_nomina.documento_identidad_personal) tipo_personal, documento_identidad_personal, nombre_personal, apellido_personal, genero_personal, fecha_ingreso_personal, id_sede, id_autoridad, id_departamento, id_cargo
-FROM temp_nomina
-ORDER BY documento_identidad_personal;
+--SELECT * FROM ruta;
 
-INSERT INTO censo (tipo_personal, documento_identidad_personal, medio_transporte, nombre_ruta, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, tiempo_llegada)
-SELECT DISTINCT ON (nomina.tipo_personal, nomina.documento_identidad_personal) tipo_personal, censo.documento_identidad_personal, medio_transporte, nombre_ruta, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, tiempo_llegada
-FROM temp_nomina as nomina JOIN temp_censo as censo ON censo.documento_identidad_personal = nomina.documento_identidad_personal
-ORDER BY nomina.tipo_personal, nomina.documento_identidad_personal;
+\echo 'llenando personal'
+INSERT INTO personal
+SELECT DISTINCT ON (temp_nomina.nacionalidad, temp_nomina.documento_identidad_personal) temp_nomina.nacionalidad, temp_nomina.documento_identidad_personal, temp_nomina.nombre_personal, temp_nomina.apellido_personal, temp_nomina.fecha_ingreso_personal, genero_personal.id_genero_personal, sede.id_sede, autoridad.id_autoridad, departamento.id_departamento, cargo.id_cargo, tipo_personal.id_tipo_personal, estado_personal.id_estado_personal
+FROM (((((((temp_nomina
+INNER JOIN genero_personal ON temp_nomina.genero_personal = genero_personal.nombre_genero_personal)
+INNER JOIN sede ON temp_nomina.id_sede = sede.id_sede)
+INNER JOIN autoridad ON temp_nomina.id_autoridad = autoridad.id_autoridad)
+INNER JOIN departamento ON temp_nomina.id_departamento = departamento.id_departamento)
+INNER JOIN cargo ON temp_nomina.id_cargo = cargo.id_cargo)
+INNER JOIN tipo_personal ON temp_nomina.id_tno = tipo_personal.id_tipo_personal)
+INNER JOIN estado_personal ON temp_nomina.estatus = estado_personal.nombre_estado_personal);
+
+--SELECT * FROM personal;
+
+\echo 'llenando censo'
+INSERT INTO censo (nacionalidad, documento_identidad_personal, medio_transporte, zona_residencia, tipo_ruta, ruta, tiempo_llegada, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes)
+SELECT DISTINCT ON (temp_nomina.nacionalidad, temp_nomina.documento_identidad_personal) temp_nomina.nacionalidad, temp_nomina.documento_identidad_personal, medio_transporte.id_medio_transporte, zona_residencia.id_zona_residencia, tipo_ruta.id_tipo_ruta, ruta.id_ruta, tiempo_llegada.id_tiempo_llegada, lunes.id_horas_estandar, martes.id_horas_estandar, miercoles.id_horas_estandar, jueves.id_horas_estandar, viernes.id_horas_estandar
+FROM (((((((((((temp_censo
+INNER JOIN temp_nomina ON temp_censo.documento_identidad_personal = temp_nomina.documento_identidad_personal)
+INNER JOIN medio_transporte ON temp_censo.medio_transporte = medio_transporte.nombre_medio_transporte)
+INNER JOIN zona_residencia ON temp_censo.zona_residencia = zona_residencia.nombre_zona_residencia)
+INNER JOIN tipo_ruta ON temp_censo.tipo_ruta = tipo_ruta.nombre_tipo_ruta)
+INNER JOIN ruta ON temp_censo.nombre_ruta = ruta.nombre_ruta)
+INNER JOIN tiempo_llegada ON temp_censo.tiempo_llegada = tiempo_llegada.nombre_tiempo_llegada)
+INNER JOIN horas_estandar as lunes ON temp_censo.hora_lunes = lunes.nombre_horas_estandar)
+INNER JOIN horas_estandar as martes ON temp_censo.hora_martes = martes.nombre_horas_estandar)
+INNER JOIN horas_estandar as miercoles ON temp_censo.hora_miercoles = miercoles.nombre_horas_estandar)
+INNER JOIN horas_estandar as jueves ON temp_censo.hora_jueves = jueves.nombre_horas_estandar)
+INNER JOIN horas_estandar as viernes ON temp_censo.hora_viernes = viernes.nombre_horas_estandar);
+
 
 --	Eliminamos las tablas temporales
 DROP TABLE temp_nomina, temp_censo;
-
-
---	PRINT 'Query! 1'
-SELECT
-   nombre_ruta,
-   COUNT (nombre_ruta)
-FROM
-   censo
-GROUP BY
-   nombre_ruta
-ORDER BY
-	nombre_ruta;
-
---	PRINT 'Query! 2'
