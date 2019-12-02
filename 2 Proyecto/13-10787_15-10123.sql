@@ -4,57 +4,44 @@
 --------------------------------------------------------------------------------
 
 --	Eliminamos la BD si existe
-DROP DATABASE IF EXISTS bd_team5;
+DROP DATABASE IF EXISTS 13-10787_15-10123;
 
 --	Creamos la BD
-CREATE DATABASE bd_team5;
+CREATE DATABASE 13-10787_15-10123;
 
 --	Nos conectamos a la BD
-\c bd_team5;
+\c 13-10787_15-10123;
 
---	Cargamos los datos en dos tablas temporales
-CREATE TABLE IF NOT EXISTS temp_nomina(
-	id_nomina SERIAL PRIMARY KEY,
-	id_tno SMALLINT,
-	tno CHAR(5),
-	estatus VARCHAR(8),
-	id_sede SMALLINT,
-	nombre_sede VARCHAR(20),
-	nacionalidad CHAR(1),
-	documento_identidad_personal INT,
-	apellido_personal VARCHAR(64),
-	nombre_personal VARCHAR(64),
-	genero_personal VARCHAR(16),
-	fecha_ingreso_personal DATE,
-	id_cargo INT,
-	nombre_cargo VARCHAR(64),
-	id_autoridad SMALLINT,
-	nombre_autoridad VARCHAR(64),
-	id_departamento SMALLINT,
-	nombre_departamento VARCHAR(70)
+--	Cargamos los datos en tablas
+CREATE TABLE IF NOT EXISTS users(
+	id_user PRIMARY KEY,
+	first_name_user VARCHAR(64),
+	last_name_user VARCHAR(64),
+	email_user VARCHAR(64),
+	credit_card_type_user VARCHAR(32),
+	credit_card_number_user BIGINT,
+	password_user VARCHAR(64)
 );
 
-\COPY temp_nomina(id_tno, tno, estatus, id_sede, nombre_sede, nacionalidad, documento_identidad_personal, apellido_personal, nombre_personal, genero_personal, fecha_ingreso_personal, id_cargo, nombre_cargo, id_autoridad, nombre_autoridad, id_departamento, nombre_departamento) FROM 'Nomina Empleados Sartenejas.csv' DELIMITER ',' CSV HEADER
+\COPY temp_nomina(id_user,first_name_user,last_name_user,email_user,credit_card_type_user,credit_card_number_user,password_user) FROM 'Users.csv' DELIMITER ',' CSV HEADER
 
-CREATE TABLE IF NOT EXISTS temp_censo(
-	id_censo SERIAL PRIMARY KEY,
-	documento_identidad_personal INT,
-	nombre_completo_personal VARCHAR(127),
-	medio_transporte VARCHAR(64),
-	zona_residencia VARCHAR(64),
-	relacion VARCHAR(32),
-	hora_lunes VARCHAR(32),
-	hora_martes VARCHAR(32),
-	hora_miercoles VARCHAR(32),
-	hora_jueves VARCHAR(32),
-	hora_viernes VARCHAR(32),
-	nombre_sede VARCHAR(20),
-	tipo_ruta VARCHAR(32),
-	nombre_ruta VARCHAR(32),
-	tiempo_llegada VARCHAR(20) NOT NULL
+
+-- Tabla de subastas
+-- Tabla de productos
+
+
+
+CREATE TABLE IF NOT EXISTS users(
+	id_user PRIMARY KEY,
+	first_name_user VARCHAR(64),
+	last_name_user VARCHAR(64),
+	email_user VARCHAR(64),
+	credit_card_type_user VARCHAR(32),
+	credit_card_number_user BIGINT,
+	password_user VARCHAR(64)
 );
 
-\COPY temp_censo(documento_identidad_personal, nombre_completo_personal, medio_transporte, zona_residencia, relacion, hora_lunes, hora_martes, hora_miercoles, hora_jueves, hora_viernes, nombre_sede, tipo_ruta, nombre_ruta, tiempo_llegada) FROM 'Censo Empleados.csv' DELIMITER ',' CSV HEADER
+\COPY temp_nomina(id_user,first_name_user,last_name_user,email_user,credit_card_type_user,credit_card_number_user,password_user) FROM 'Users.csv' DELIMITER ',' CSV HEADER
 
 --	Creamos cada tabla
 CREATE TABLE IF NOT EXISTS estado_personal(
