@@ -5,7 +5,8 @@ CREATE TABLE IF NOT EXISTS product(
 	category_product VARCHAR(64),
 	FOREIGN KEY (category_product) REFERENCES category(id_category)	
 	description_product TEXT,
-	price_product MONEY
+	price_product MONEY,
+    image_product TEXT
 );
 
 -- Tabla de productos
