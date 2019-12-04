@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS users(
 CREATE EXTENSION ltree;
 CREATE TABLE IF NOT EXISTS category(
     id_category TEXT PRIMARY KEY,
-    path ltree NOT NULL
+    path ltree NOT NULL UNIQUE
 );
 
 \COPY category(id_category, path) FROM 'Categories.csv' DELIMITER ';' CSV HEADER
@@ -54,28 +54,26 @@ CREATE TABLE IF NOT EXISTS product(
 -- Tabla de subasta
 CREATE TABLE IF NOT EXISTS auction(
 	id_auction BIGSERIAL PRIMARY KEY,
-	reserve_price_auction MONEY,
-	base_price_auction MONEY,
+	reserve_price_auction MONEY NOT NULL,
+	base_price_auction MONEY NOT NULL,
 	actual_price_auction MONEY,
 	id_product_auction BIGINT,
-	FOREIGN KEY (id_product_auction) REFERENCES product(id_product),	
-	description_auction TEXT,
-	description_product_auction TEXT,
-	FOREIGN KEY (description_product_auction) REFERENCES product(description_product),
+	FOREIGN KEY (id_product_auction) REFERENCES product(id_product),
+	description_auction TEXT NOT NULL,
 	actual_winner_auction BIGINT,
 	FOREIGN KEY (actual_winner_auction) REFERENCES users(id_user),
 	owner_auction BIGINT,
 	FOREIGN KEY (owner_auction) REFERENCES users(id_user),
-	start_date_product TIMESTAMP,
-	end_date_product TIMESTAMP,
-	bid_count INT,
-    image_product TEXT,
-	stock_product INT,
-	estate_product VARCHAR(8),
-	is_active BOOLEAN
+	start_date_auction TIMESTAMP NOT NULL,
+	end_date_auction TIMESTAMP NOT NULL,
+	bid_count_auction MONEY NOT NULL,
+    image_product_auction TEXT NOT NULL,
+	stock_product_auction INT NOT NULL,
+	estate_product_auction VARCHAR(8) NOT NULL,
+	is_active_auction BOOLEAN NOT NULL
 );
 
-\COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,description_product_auction,actual_winner_auction,owner_auction,start_date_product,end_date_product,bid_count,image_product,is_active) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
+\COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_auction,end_date_auction,bid_count_auction,image_product_auction,stock_product_auction,estate_product_auction,is_active_auction) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
 --Recuerda acomodar el csv de productos y de auction porque cambiamos lo que consideramos
 
 CREATE TABLE IF NOT EXISTS bid_validation(
