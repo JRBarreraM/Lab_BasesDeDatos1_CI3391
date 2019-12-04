@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS bid_registry(
 	FOREIGN KEY (id_auction_bid_validation) REFERENCES auction(id_auction),
 	id_user_bid_validation BIGINT,
 	FOREIGN KEY (id_user_bid_validation) REFERENCES users(id_user),
-	amount_bid_validation INT NOT NULL,
+	amount_bid_validation MONEY NOT NULL,
 	date_bid_validation TIMESTAMP NOT NULL
 );
 
