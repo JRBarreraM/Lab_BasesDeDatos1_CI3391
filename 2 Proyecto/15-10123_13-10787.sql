@@ -1,11 +1,30 @@
+CREATE OR REPLACE FUNCTION categoryStrToId()
+	RETURNS trigger AS
+$$
+BEGIN
+	INSERT INTO product(id_category_product)
+	SELECT id_category
+	FROM category
+	INNER JOIN product ON product.id_category_product = category.id_category;
+	RETURN NEW;
+END;
+$$
+LANGUAGE 'plpgsql';
 
--- Tabla de productos
+CREATE TRIGGER categoryId_trigger
+	BEFORE INSERT
+	ON product
+	FOR EACH ROW
+	EXECUTE PROCEDURE categoryStrToId();
+
 CREATE TABLE IF NOT EXISTS product(
-	id_product BIGINT PRIMARY KEY,
+	id_product BIGSERIAL PRIMARY KEY,
+	estate_product VARCHAR(4),
 	category_product VARCHAR(64),
 	FOREIGN KEY (category_product) REFERENCES category(id_category)	
 	description_product TEXT,
 	price_product MONEY,
+	stock_product SMALLINT,
     image_product TEXT
 );
 
@@ -28,20 +47,6 @@ CREATE TABLE IF NOT EXISTS auction(
 	is_active BOOLEAN
 );
 
-create table tree(
-    id serial primary key,
-    letter char,
-    path ltree
-);
-create index tree_path_idx on tree using gist (path);
-
-
-
-
-
-CREATE TABLE IF NOT EXISTS category(
-
-);
 
 CREATE TABLE IF NOT EXISTS bid_validation(
 
