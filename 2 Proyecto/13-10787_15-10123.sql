@@ -76,11 +76,18 @@ CREATE TABLE IF NOT EXISTS auction(
 \COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_auction,end_date_auction,bid_count_auction,image_product_auction,stock_product_auction,estate_product_auction,is_active_auction) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
 --Recuerda acomodar el csv de productos y de auction porque cambiamos lo que consideramos
 
-CREATE TABLE IF NOT EXISTS bid_validation(
-	id_bid_validation BIGSERIAL PRIMARY KEY
-
+CREATE TABLE IF NOT EXISTS bid_registry(
+	id_bid_validation BIGSERIAL PRIMARY KEY,
+	id_auction_bid_validation BIGINT,
+	FOREIGN KEY (id_auction_bid_validation) REFERENCES auction(id_auction),
+	id_user_bid_validation BIGINT,
+	FOREIGN KEY (id_user_bid_validation) REFERENCES users(id_user),
+	amount_bid_validation INT NOT NULL,
+	date_bid_validation TIMESTAMP NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS bid_registry(
+\COPY bid_registry(id_auction_bid_validation,id_user_bid_validation,amount_bid_validation,date_bid_validation) FROM 'BidRegistry.csv' DELIMITER ',' CSV HEADER
+
+CREATE TABLE IF NOT EXISTS bid_validation(
 	id_bid_registry BIGSERIAL PRIMARY KEY
 );
