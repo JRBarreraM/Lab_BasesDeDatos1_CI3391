@@ -17,16 +17,6 @@ CREATE TRIGGER categoryId_trigger
 	FOR EACH ROW
 	EXECUTE PROCEDURE categoryStrToId();
 
-CREATE TABLE IF NOT EXISTS product(
-	id_product BIGSERIAL PRIMARY KEY,
-	estate_product VARCHAR(4),
-	category_product VARCHAR(64),
-	FOREIGN KEY (category_product) REFERENCES category(id_category)	
-	description_product TEXT,
-	price_product MONEY,
-	stock_product SMALLINT,
-    image_product TEXT
-);
 
 -- Tabla de productos
 CREATE TABLE IF NOT EXISTS auction(
