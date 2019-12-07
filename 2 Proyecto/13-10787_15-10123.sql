@@ -31,13 +31,13 @@ CREATE TABLE IF NOT EXISTS users(
 CREATE EXTENSION ltree;
 CREATE TABLE IF NOT EXISTS category(
     id_category TEXT PRIMARY KEY,
-    path ltree NOT NULL UNIQUE
+    nodePath ltree NOT NULL UNIQUE
 );
 
-\COPY category(id_category, path) FROM 'Categories.csv' DELIMITER ';' CSV HEADER
+\COPY category(id_category, nodePath) FROM 'Categories.csv' DELIMITER ';' CSV HEADER
 
-CREATE INDEX path_gist_idx ON category USING gist(path);
-CREATE INDEX path_idx ON category USING btree(path);
+CREATE INDEX path_gist_idx ON category USING gist(nodePath);
+CREATE INDEX path_idx ON category USING btree(nodePath);
 
 
 -- Tabla de producto
@@ -106,11 +106,27 @@ CREATE TABLE IF NOT EXISTS bid_validation(
 	date_bid_validation TIMESTAMP NOT NULL
 );
 
-CREATE OR REPLACE PROCEDURE PENE(in a integer)
+CREATE PROCEDURE isLeaf(TEXT)
+LANGUAGE plpgsql
 AS $$
+DECLARE
+	node ALIAS FOR $1;
+	a integer := (SELECT COUNT (nodePath) FROM category WHERE nodePath ~ ('*.'|| node || '.*')::lquery);
 BEGIN
-
+	IF 1 < a THEN
+		RAISE NOTICE 'is not a leaf';
+		RETURN;
+	END IF;
+	IF 1 = a THEN
+		RAISE NOTICE 'is leaf';
+		RETURN;
+	END IF;
+	IF 0 = a THEN
+		RAISE NOTICE 'category not found';
+		RETURN;
+	END IF;
 END;
-$$ LANGUAGE plpgsql;
+$$;
 
-SELECT COUNT (path) FROM category WHERE path ~ ('*.Unisex_Kids_Clothing.*')
+SELECT COUNT (nodePath) FROM category WHERE nodePath ~ ('*.Unisex_Kids_Clothing.*');
+CALL isLeaf('Unisex_Kids_Clothing')

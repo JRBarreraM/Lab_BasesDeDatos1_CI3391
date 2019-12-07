@@ -1,0 +1,6 @@
+CREATE FUNCTION isLeaf(path TEXT)
+	RETURNS BOOLEAN AS
+BEGIN
+	SELECT COUNT (path) FROM category WHERE path ~ ||path||'.*';
+END;
+LANGUAGE 'plpgsql';
