@@ -17,37 +17,6 @@ CREATE TRIGGER categoryId_trigger
 	FOR EACH ROW
 	EXECUTE PROCEDURE categoryStrToId();
 
-
--- Tabla de productos
-CREATE TABLE IF NOT EXISTS auction(
-	id_auction BIGINT PRIMARY KEY,
-	reserve_price_auction MONEY,
-	base_price_auction MONEY,
-	actual_price_auction MONEY,
-	id_product_auction BIGINT,
-	FOREIGN KEY (id_product_auction) REFERENCES product(id_product),	
-	description_product TEXT,
-	actual_winner_auction BIGINT,
-	FOREIGN KEY (actual_winner_auction) REFERENCES users(id_users),
-	owner_auction BIGINT,
-	FOREIGN KEY (owner_auction) REFERENCES users(id_users)
-	start_date_product SMALLDATETIME,
-	end_date_product SMALLDATETIME,
-	bid_count INT,
-	is_active BOOLEAN
-);
-
-
-CREATE TABLE IF NOT EXISTS bid_validation(
-
-);
-
-CREATE TABLE IF NOT EXISTS bid_registry(
-
-);
-
-\COPY temp_nomina(id_user,first_name_user,last_name_user,email_user,credit_card_type_user,credit_card_number_user,password_user) FROM 'Users.csv' DELIMITER ',' CSV HEADER
-
 CREATE OR REPLACE PROCEDURE undoLastBid(INT, INT, DEC)
 LANGUAGE plpgsql    
 AS $$

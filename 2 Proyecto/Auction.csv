@@ -1,13 +1,13 @@
-reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_product,end_date_product,bid_count,image_product,stock_product_auction,estate_product_auction,is_active_auction
-11,9.75,10.95,22,lorem_ipsum,11,2,11/27/2019 3:35:33,11/28/2019 19:56:33,1.095,https://i.ebayimg.com/images/g/NjUAAOSwtxNcsFFi/s-l64.jpg,8,New,FALSE
-60,43.97,100,27,lorem_ipsum,3,5,1/9/2020 20:53,01/25/2020 4:54:22,10,https://i.ebayimg.com/images/g/nvgAAOSw1BNdjOJJ/s-l500.jpg,10,New,TRUE
-288.55,288.55,318.55,17,lorem_ipsum,8,9,07/22/2019 3:34:42,07/25/2019 0:38:44,31.855,https://i.ebayimg.com/images/g/wHUAAOSwDoNd5hSM/s-l64.jpg,1,New,FALSE
-124.95,124.95,200,7,lorem_ipsum,1,23,7/7/2020 19:16,07/18/2020 3:45:22,20,https://i.ebayimg.com/images/g/X3sAAOSwHHFZAMFg/s-l300.jpg,23,New,TRUE
-3,1.31,8,1,lorem_ipsum,15,2,07/29/2020 19:06:43,09/22/2020 4:45:22,0.8,https://i.ebayimg.com/images/g/xzQAAOSwb7Rca-FP/s-l500.jpg,2,New,TRUE
-12,12,12,3,lorem_ipsum,31,31,01/19/2020 20:53:52,03/20/2020 4:54:33,1.2,https://ir.ebaystatic.com/pictures/aw/pics/viewitem/imgEndedCvi_96x96.png,2,New,TRUE
-37,37,40.7,5,lorem_ipsum,18,4,11/7/2019 03:35,11/2/2019 19:56,4.07,https://i.ebayimg.com/images/g/vFIAAOSwBgFdeQhq/s-l300.png,36,New,FALSE
-3.5,3.5,3.85,18,lorem_ipsum,6,13,04/24/2020 19:16:36,07/14/2020 4:45:33,0.385,https://i.ebayimg.com/images/g/ducAAOSwwYFdO~K4/s-l64.jpg,10,New,TRUE
-15,10,11,26,lorem_ipsum,1,16,1/1/2019 03:35,2/2/2019 19:56,1.1,https://i.ebayimg.com/images/g/hiIAAOSwDG1dzoC~/s-l64.jpg,60,New,FALSE
-15,10,23,26,lorem_ipsum,8,16,2/2/2019 02:35,5/4/2019 21:56,2.3,https://i.ebayimg.com/images/g/hiIAAOSwDG1dzoC~/s-l64.jpg,1,Used,FALSE
-900,449.99,1000,11,lorem_ipsum,22,3,1/4/2020 17:16,1/14/2020 4:28,200,https://i.ebayimg.com/images/g/OZ4AAOSwMuBcj4mm/s-l64.jpg,5,New,TRUE
-8,4.5,15,24,lorem_ipsum,2,8,8/1/2020 17:22,12/14/2020 10:40:42,1.5,https://i.ebayimg.com/images/g/coEAAOSwInxXNZY2/s-l64.jpg,3,Used,TRUE
+reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_product,end_date_product,bid_count,image_product,stock_product_auction,estate_product_auction,extend_date_auction,is_active_auction
+11,9.75,10.95,22,lorem_ipsum,11,2,11/27/2019 3:35:33,11/28/2019 19:56:33,1.095,https://i.ebayimg.com/images/g/NjUAAOSwtxNcsFFi/s-l64.jpg,8,New,1 hour,FALSE
+60,43.97,100,27,lorem_ipsum,3,5,1/9/2020 20:53,01/25/2020 4:54:22,10,https://i.ebayimg.com/images/g/nvgAAOSw1BNdjOJJ/s-l500.jpg,10,New,23 hours,TRUE
+288.55,288.55,318.55,17,lorem_ipsum,8,9,07/22/2019 3:34:42,07/25/2019 0:38:44,31.855,https://i.ebayimg.com/images/g/wHUAAOSwDoNd5hSM/s-l64.jpg,1,New,30 minutes,FALSE
+124.95,124.95,200,7,lorem_ipsum,1,23,7/7/2020 19:16,07/18/2020 3:45:22,20,https://i.ebayimg.com/images/g/X3sAAOSwHHFZAMFg/s-l300.jpg,23,New,2 days,TRUE
+3,1.31,8,1,lorem_ipsum,15,2,07/29/2020 19:06:43,09/22/2020 4:45:22,0.8,https://i.ebayimg.com/images/g/xzQAAOSwb7Rca-FP/s-l500.jpg,2,New,2 hours,TRUE
+12,12,12,3,lorem_ipsum,31,31,01/19/2020 20:53:52,03/20/2020 4:54:33,1.2,https://ir.ebaystatic.com/pictures/aw/pics/viewitem/imgEndedCvi_96x96.png,2,New,10 minutes,TRUE
+37,37,40.7,5,lorem_ipsum,18,4,11/7/2019 03:35,11/2/2019 19:56,4.07,https://i.ebayimg.com/images/g/vFIAAOSwBgFdeQhq/s-l300.png,36,New,3 hours,FALSE
+3.5,3.5,3.85,18,lorem_ipsum,6,13,04/24/2020 19:16:36,07/14/2020 4:45:33,0.385,https://i.ebayimg.com/images/g/ducAAOSwwYFdO~K4/s-l64.jpg,10,New,13 hours,TRUE
+15,10,11,26,lorem_ipsum,1,16,1/1/2019 03:35,2/2/2019 19:56,1.1,https://i.ebayimg.com/images/g/hiIAAOSwDG1dzoC~/s-l64.jpg,60,New,15 minutes,FALSE
+15,10,23,26,lorem_ipsum,8,16,2/2/2019 02:35,5/4/2019 21:56,2.3,https://i.ebayimg.com/images/g/hiIAAOSwDG1dzoC~/s-l64.jpg,1,Used,2 minutes,FALSE
+900,449.99,1000,11,lorem_ipsum,22,3,1/4/2020 17:16,1/14/2020 4:28,200,https://i.ebayimg.com/images/g/OZ4AAOSwMuBcj4mm/s-l64.jpg,5,New,1 day,TRUE
+8,4.5,15,24,lorem_ipsum,2,8,8/1/2020 17:22,12/14/2020 10:40:42,1.5,https://i.ebayimg.com/images/g/coEAAOSwInxXNZY2/s-l64.jpg,3,Used,45 minutes,TRUE

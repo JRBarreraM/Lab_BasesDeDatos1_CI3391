@@ -78,22 +78,23 @@ CREATE TABLE IF NOT EXISTS auction(
     image_product_auction TEXT NOT NULL,
 	stock_product_auction INT NOT NULL,
 	estate_product_auction VARCHAR(8) NOT NULL,
+	extend_date_auction VARCHAR(16) NOT NULL,
 	is_active_auction BOOLEAN NOT NULL
 );
 
-\COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_auction,end_date_auction,bid_count_auction,image_product_auction,stock_product_auction,estate_product_auction,is_active_auction) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
+\COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_auction,end_date_auction,bid_count_auction,image_product_auction,stock_product_auction,estate_product_auction,extend_date_auction,is_active_auction) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
 
 CREATE TABLE IF NOT EXISTS bid_registry(
-	id_bid_validation BIGSERIAL PRIMARY KEY,
-	id_auction_bid_validation BIGINT,
-	FOREIGN KEY (id_auction_bid_validation) REFERENCES auction(id_auction),
-	id_user_bid_validation BIGINT,
-	FOREIGN KEY (id_user_bid_validation) REFERENCES users(id_user),
-	amount_bid_validation MONEY NOT NULL,
-	date_bid_validation TIMESTAMP NOT NULL
+	id_bid_registry BIGSERIAL PRIMARY KEY,
+	id_auction_bid_registry BIGINT,
+	FOREIGN KEY (id_auction_bid_registry) REFERENCES auction(id_auction),
+	id_user_bid_registry BIGINT,
+	FOREIGN KEY (id_user_bid_registry) REFERENCES users(id_user),
+	amount_bid_registry MONEY NOT NULL,
+	date_bid_registry TIMESTAMP NOT NULL
 );
 
-\COPY bid_registry(id_auction_bid_validation,id_user_bid_validation,amount_bid_validation,date_bid_validation) FROM 'BidRegistry.csv' DELIMITER ',' CSV HEADER
+\COPY bid_registry(id_auction_bid_registry,id_user_bid_registry,amount_bid_registry,date_bid_registry) FROM 'BidRegistry.csv' DELIMITER ',' CSV HEADER
 
 CREATE TABLE IF NOT EXISTS bid_validation(
 	id_bid_validation BIGSERIAL PRIMARY KEY,
@@ -104,3 +105,12 @@ CREATE TABLE IF NOT EXISTS bid_validation(
 	amount_bid_validation MONEY NOT NULL,
 	date_bid_validation TIMESTAMP NOT NULL
 );
+
+CREATE OR REPLACE PROCEDURE PENE(in a integer)
+AS $$
+BEGIN
+
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT COUNT (path) FROM category WHERE path ~ ('*.Unisex_Kids_Clothing.*')
