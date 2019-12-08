@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS users(
 
 ALTER TABLE users
 ADD  CONSTRAINT payMethod
-CHECK ((credit_card_type_user IS NULL AND credit_card_number_user IS NULL))OR(credit_card_type_user IS NOT NULL AND credit_card_number_user IS NOT NULL));
+CHECK ((credit_card_type_user IS NULL AND credit_card_number_user IS NULL)OR(credit_card_type_user IS NOT NULL AND credit_card_number_user IS NOT NULL));
 
 \COPY users(id_user,first_name_user,last_name_user,email_user,credit_card_type_user,credit_card_number_user,password_user) FROM 'Users.csv' DELIMITER ',' CSV HEADER
 
@@ -42,8 +42,7 @@ CREATE TABLE IF NOT EXISTS admin(
 CREATE EXTENSION ltree;
 CREATE TABLE IF NOT EXISTS category(
     id_category TEXT PRIMARY KEY,
-    nodePath ltree NOT NULL UNIQUE,
-	specifications_category TEXT NOT NULL
+    nodePath ltree NOT NULL UNIQUE
 );
 
 \COPY category(id_category, nodePath) FROM 'Categories.csv' DELIMITER ';' CSV HEADER
@@ -69,12 +68,14 @@ CREATE TABLE IF NOT EXISTS tag(
 	PRIMARY KEY (id_product_tag, id_category_tag)
 );
 
+\COPY tag(id_product_tag,id_category_tag) FROM 'Tag.csv' DELIMITER ',' CSV HEADER
+
 -- Tabla de subasta
 CREATE TABLE IF NOT EXISTS auction(
 	id_auction BIGSERIAL PRIMARY KEY,
-	reserve_price_auction MONEY NOT NULL CHECK(reserve_price_auction >= 0),
-	base_price_auction MONEY NOT NULL CHECK(base_price_auction >= 0),
-	actual_price_auction MONEY CHECK(actual_price_auction >= 0),
+	reserve_price_auction NUMERIC(15,2) NOT NULL CHECK(reserve_price_auction > 0),
+	base_price_auction NUMERIC(15,2) NOT NULL CHECK(base_price_auction <= reserve_price_auction),
+	actual_price_auction NUMERIC(15,2) CHECK(actual_price_auction > 0),
 	id_product_auction BIGINT,
 	FOREIGN KEY (id_product_auction) REFERENCES product(id_product),
 	description_auction TEXT NOT NULL,
@@ -84,7 +85,7 @@ CREATE TABLE IF NOT EXISTS auction(
 	FOREIGN KEY (owner_auction) REFERENCES users(id_user),
 	start_date_auction TIMESTAMP NOT NULL,
 	end_date_auction TIMESTAMP NOT NULL CHECK(end_date_auction > start_date_auction),
-	bid_count_auction MONEY NOT NULL,
+	bid_count_auction NUMERIC(15,2) NOT NULL,
     image_product_auction TEXT NOT NULL,
 	stock_product_auction INT NOT NULL CHECK(stock_product_auction >= 0),
 	estate_product_auction VARCHAR(8) NOT NULL,
@@ -94,13 +95,14 @@ CREATE TABLE IF NOT EXISTS auction(
 
 \COPY auction(reserve_price_auction,base_price_auction,actual_price_auction,id_product_auction,description_auction,actual_winner_auction,owner_auction,start_date_auction,end_date_auction,bid_count_auction,image_product_auction,stock_product_auction,estate_product_auction,extend_date_auction,is_active_auction) FROM 'Auction.csv' DELIMITER ',' CSV HEADER
 
+-- Tabla de registro de bids historicos
 CREATE TABLE IF NOT EXISTS bid_registry(
 	id_bid_registry BIGSERIAL PRIMARY KEY,
 	id_auction_bid_registry BIGINT,
 	FOREIGN KEY (id_auction_bid_registry) REFERENCES auction(id_auction),
 	id_user_bid_registry BIGINT,
 	FOREIGN KEY (id_user_bid_registry) REFERENCES users(id_user),
-	amount_bid_registry MONEY NOT NULL CHECK(amount_bid_registry >= 0),
+	amount_bid_registry NUMERIC(15,2) NOT NULL CHECK(amount_bid_registry >= 0),
 	date_bid_registry TIMESTAMP NOT NULL
 );
 
@@ -139,16 +141,10 @@ BEGIN
 END;
 $BODY$
 
-
 CREATE TRIGGER categoryChecker
 	BEFORE INSERT
 	ON tag
 	FOR EACH STATEMENT
 	EXECUTE PROCEDURE leafChecker();
 
-SELECT isLeaf('Unisex_Kids_Clothing')
-
-
-
---El usuario para hacer un bid, debe tener un medio de pago
-doBid
+SELECT isLeaf('Unisex_Kids_Clothing');
