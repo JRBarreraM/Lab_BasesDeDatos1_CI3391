@@ -148,3 +148,87 @@ CREATE TRIGGER categoryChecker
 	EXECUTE PROCEDURE leafChecker();
 
 SELECT isLeaf('Unisex_Kids_Clothing');
+
+CREATE OR REPLACE PROCEDURE undoLastBid(INT)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+	auctionId ALIAS FOR $1;
+    undoBidId integer := 
+        (SELECT id_bid_registry
+        FROM
+        (SELECT *
+        FROM (SELECT id_bid_registry,date_bid_registry FROM bid_registry WHERE id_auction_bid_registry = auctionId) AS thisBids
+        ORDER BY date_bid_registry DESC
+        LIMIT 1) AS lastBidId);
+    newWinner integer :=
+            (SELECT id_user_bid_registry
+            FROM (
+                SELECT date_bid_registry, id_user_bid_registry,
+                    dense_rank() over (partition by date_bid_registry order by date_bid_registry desc) as rnk
+                FROM bid_registry
+                WHERE id_auction_bid_registry = auctionId
+            ) AS prevLastBidId
+            WHERE rnk = 2);
+    amount integer := (SELECT amount_bid_registry FROM bid_registry WHERE id_bid_registry = undoBidId);
+BEGIN
+    UPDATE auction 
+    SET actual_price_auction = actual_price_auction - amount
+    WHERE id_auction = auctionId;
+
+    UPDATE auction 
+    SET actual_winner_auction = newWinner
+    WHERE id_auction = auctionId;
+
+    COMMIT;
+END;
+$$;
+
+CREATE OR REPLACE FUNCTION usersPayMethod(BIGINT) RETURNS BOOLEAN
+LANGUAGE plpgsql
+AS $$
+BEGIN
+	RETURN ((SELECT credit_card_number_user FROM users WHERE id_user = $1) IS NOT NULL);
+END;
+$$;
+
+--Only user with a credit card can do bids
+ALTER TABLE bid_registry
+ADD CONSTRAINT payMethodCheck
+CHECK (usersPayMethod(id_user_bid_registry));
+
+CREATE OR REPLACE PROCEDURE doBid(BIGINT,BIGINT,NUMERIC,TIMESTAMP)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+	auctionId ALIAS FOR $1;
+	userId ALIAS FOR $1;
+	amount ALIAS FOR $1;
+	time ALIAS FOR $1;
+    undoBidId integer := 
+        
+    newWinner integer :=
+            (SELECT id_user_bid_registry
+            FROM (
+                SELECT date_bid_registry, id_user_bid_registry,
+                    dense_rank() over (partition by date_bid_registry order by date_bid_registry desc) as rnk
+                FROM bid_registry
+                WHERE id_auction_bid_registry = auctionId
+            ) AS prevLastBidId
+            WHERE rnk = 2);
+    amount integer := (SELECT amount_bid_registry FROM bid_registry WHERE id_bid_registry = undoBidId);
+BEGIN
+    UPDATE auction 
+    SET actual_price_auction = actual_price_auction - amount
+    WHERE id_auction = auctionId;
+
+    UPDATE auction 
+    SET actual_winner_auction = newWinner
+    WHERE id_auction = auctionId;
+
+    COMMIT;
+END;
+$$;
+--CALL doBid(1,1,100,1/13/2020 9:28:55);
+--CALL undoLastBid(3);
+--SELECT * FROM auction;
