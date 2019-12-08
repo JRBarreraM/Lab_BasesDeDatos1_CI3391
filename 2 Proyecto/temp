@@ -1,6 +1,23 @@
-CREATE FUNCTION isLeaf(path TEXT)
-	RETURNS BOOLEAN AS
+SELECT COUNT (nodePath) FROM category WHERE nodePath ~ ('*.Unisex_Kids_Clothing.*');
+
+CREATE OR REPLACE FUNCTION leafChecker()
+  RETURNS TRIGGER AS
+$BODY$
 BEGIN
-	SELECT COUNT (path) FROM category WHERE path ~ ||path||'.*';
+	IF isLeaf(tag.id_category_tag) THEN
+		RETURN NEW;
+	ELSE
+		RAISE EXCEPTION 'Invalid category';
+		RETURN NULL;
+	END IF;
+
+	RETURN NEW;
 END;
-LANGUAGE 'plpgsql';
+$BODY$
+
+
+CREATE TRIGGER last_name_changes
+	BEFORE INSERT
+	ON tag
+	FOR EACH STATEMENT
+	EXECUTE PROCEDURE leafChecker();
